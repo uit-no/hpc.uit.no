@@ -30,7 +30,7 @@ installation, code performance optimization, CPU and GPU programming, and
 
 - Support the [Norwegian Research Infrastructure Services (NRIS)](https://documentation.sigma2.no/).
 - Improve the usability of the NRIS services.
-- Help improving the your scripts and codes and workflows so that you get more research done in less time.
+- Help improving your scripts and codes and workflows so that you get more research done in less time.
 - [Provide training](/courses/) to give everybody the tools they need and confidence to use the tools.
 - Help you with access to national and international compute and storage resources.
 
