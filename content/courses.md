@@ -26,5 +26,6 @@ Most courses we do are developed and organized together with
 
 ## Lesson material and recordings
 
+- [NRIS training material](https://documentation.sigma2.no/training/material.html)
 - [Lessons developed with CodeRefinery](https://coderefinery.org/lessons/)
 - [Research Software Hour](https://researchsoftwarehour.github.io/)
