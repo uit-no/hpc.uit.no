@@ -1,0 +1,34 @@
+# The URL the site will be built for
+base_url = "https://hpc.uit.no"
+
+title = "High-performance computing group at UiT"
+
+description = '''
+When your computation does not fit anymore into your computer, we are the group
+to talk to.
+'''
+
+# Whether to automatically compile all Sass files in the sass directory
+compile_sass = true
+
+# Whether to build a search index to be used later on by a JavaScript library
+build_search_index = false
+
+
+[markdown]
+
+highlight_code = true
+highlight_theme = "cheerfully-light"
+
+
+[extra]
+
+navigation = [
+  { name = "Home", target = "/" },
+  { name = "Team", target = "/team/" },
+  { name = "Courses", target = "/courses/" },
+  { name = "NRIS", target = "https://documentation.sigma2.no/" },
+  { name = "Contact", target = "/contact/" },
+]
+
+# twitter_image = "example.png"
