@@ -12,7 +12,8 @@ branch. The branch `gh-pages` should not be manually modified.
 
 ### Local preview
 
-- Install [Zola](https://www.getzola.org/documentation/getting-started/installation/)
+- Install [Zola](https://www.getzola.org/). Or you can download the binary from
+  [here](https://github.com/getzola/zola/releases).
 - Serve locally: `$ zola serve`
 
 CSS is using [UIkit](https://getuikit.com/).
@@ -20,4 +21,4 @@ CSS is using [UIkit](https://getuikit.com/).
 
 ### Favicon attribution
 
-The racks favicon is created by [Freepik - Flaticon](https://www.flaticon.com/free-icons).
+The racks favicon is created by [Freepik-Flaticon](https://www.flaticon.com/free-icons).
