@@ -3,6 +3,12 @@
 - https://hpc.uit.no
 
 
+### How/where to add yourself or edit your information
+
+Edit [content/team/team.yaml](content/team/team.yaml)
+or `git grep` for text on the page you want to change.
+
+
 ### How the GitHub Pages part works
 
 The website is built using [Zola](https://www.getzola.org/).
