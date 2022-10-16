@@ -1,0 +1,41 @@
+---
+team:
+  - name: "Radovan Bast"
+    picture: "rb.jpg"
+    text:
+      Leads the [CodeRefinery](https://coderefinery.org)
+      project and the high-performance computing and research software
+      engineering groups.  Specializes in software development, teaching, and
+      improving usability of HPC services.
+  - name: "JD"
+    picture: "placeholder.png"
+    text:
+      (text will be added soon)
+  - name: "VHW"
+    picture: "placeholder.png"
+    text:
+      (text will be added soon)
+  - name: "DJ"
+    picture: "placeholder.png"
+    text:
+      (text will be added soon)
+  - name: "PK"
+    picture: "placeholder.png"
+    text:
+      (text will be added soon)
+  - name: "TM"
+    picture: "placeholder.png"
+    text:
+      (text will be added soon)
+  - name: "ET"
+    picture: "placeholder.png"
+    text:
+      (text will be added soon)
+  - name: "STH"
+    picture: "placeholder.png"
+    text:
+      (text will be added soon)
+  - name: "IZ"
+    picture: "placeholder.png"
+    text:
+      (text will be added soon)

@@ -1,6 +1,0 @@
-+++
-+++
-
-# Team
-
-... under construction ...
