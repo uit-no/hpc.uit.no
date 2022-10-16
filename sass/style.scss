@@ -4,9 +4,19 @@
 @import "../uikit/src/scss/uikit-theme.scss";
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
 
 * {
     font-family: 'Roboto', sans-serif;
+}
+
+html {
+    background-color: #202020;
+    color: #a0a0a0;
+}
+
+a {
+    color: #41c2fa;
 }
 
 .markdown ul {
@@ -15,7 +25,7 @@
 
 }
 
-$heading-color: #404040;
+$heading-color: #d0d0d0;
 
 .markdown h1 {
     @extend .uk-h2;
@@ -30,4 +40,57 @@ $heading-color: #404040;
 .markdown h3 {
     @extend .uk-h4;
     color: $heading-color;
+}
+
+.color_0 {
+    color: #e36496;
+}
+
+.color_1 {
+    color: #202020;
+}
+
+.blink_0 {
+    animation: blinker 1.0s linear;
+    animation-iteration-count: 10;
+}
+
+.blink_1 {
+    animation: blinker 0.5s linear;
+    animation-iteration-count: 10;
+}
+
+.blink_2 {
+    animation: blinker 0.2s linear;
+    animation-iteration-count: 10;
+}
+
+.blink_3 {
+    animation: blinker 2.0s linear;
+    animation-iteration-count: 10;
+}
+
+.blink_4 {
+    animation: blinker 0.7s linear;
+    animation-iteration-count: 10;
+}
+
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}
+
+.terminal a {
+    font-family: 'VT323', monospace;
+}
+
+.terminal p {
+    font-family: 'VT323', monospace;
+    font-size: 2em;
+}
+
+.terminal h1 {
+    font-family: 'VT323', monospace;
+    font-size: 3em;
 }

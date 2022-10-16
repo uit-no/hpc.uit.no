@@ -1,5 +1,13 @@
 {% extends "base.html" %}
 
 {% block content %}
+  <div class="uk-margin-large-bottom">
+    {% include "blinkenlights.html" %}
+  </div>
+
   {{ section.content | safe }}
+
+  <div class="uk-margin-large-top">
+    {% include "blinkenlights.html" %}
+  </div>
 {% endblock content %}

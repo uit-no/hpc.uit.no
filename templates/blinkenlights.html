@@ -1,0 +1,7 @@
+{% for i in range(end=3) %}
+  <div>
+    {% for j in range(end=80) %}
+      <div style="display: inline;" class="blink_{{ get_random(start=0, end=5) }} color_{{ get_random(start=0, end=2) }}">&#9632;</div>
+    {% endfor %}
+  </div>
+{% endfor %}
