@@ -19,10 +19,12 @@ team:
     picture: "placeholder.png"
     text:
       (text will be added soon)
-  - name: "PK"
-    picture: "placeholder.png"
+  - name: "Pavel Kucera"
+    picture: "pk.png"
     text:
-      (text will be added soon)
+      Sysadmin interested mainly in networking, automation, and virtualization
+      in an open source environment. Trying to be open sourced personally in
+      his freetime as well - mainly on water and in mountains.
   - name: "TM"
     picture: "placeholder.png"
     text:
