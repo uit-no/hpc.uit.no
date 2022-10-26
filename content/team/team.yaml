@@ -7,10 +7,10 @@ team:
       project and the high-performance computing and research software
       engineering groups.  Specializes in software development, teaching, and
       improving usability of HPC services.
-  - name: "JD"
-    picture: "placeholder.png"
+  - name: "Jørn Dietze"
+    picture: "jd.png"
     text:
-      (text will be added soon)
+      Jørn Dietze is almost finished with a Ph.D in bioinformatics. He is working with high-performance computing systems and has experience with programming in Python, Julia, and a little bit of C. He is mainly busy with making the systems more usuable as part of NRIS at the University of Tromsø, Norway, and the [LUMI User Support Team](https://www.lumi-supercomputer.eu/).
   - name: "VHW"
     picture: "placeholder.png"
     text:
