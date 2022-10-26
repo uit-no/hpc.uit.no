@@ -29,10 +29,9 @@ team:
     picture: "placeholder.png"
     text:
       (text will be added soon)
-  - name: "ET"
+  - name: "Espen Tangen"
     picture: "placeholder.png"
-    text:
-      (text will be added soon)
+    text: ""
   - name: "Øystein Tveito"
     picture: "ot.jpg"
     text:
