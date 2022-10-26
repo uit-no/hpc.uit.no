@@ -33,10 +33,12 @@ team:
     picture: "placeholder.png"
     text:
       (text will be added soon)
-  - name: "OT"
-    picture: "placeholder.png"
+  - name: "Øystein Tveito"
+    picture: "ot.jpg"
     text:
-      (text will be added soon)
+      Newest member of the team that will be working on monitoring solutions
+      for HPC and maintaining the infrastructure. He has experience in
+      programming, IoT, 3D printing, and machine learning.
   - name: "STH"
     picture: "placeholder.png"
     text:
