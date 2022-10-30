@@ -38,10 +38,11 @@ team:
       Newest member of the team that will be working on monitoring solutions
       for HPC and maintaining the infrastructure. He has experience in
       programming, IoT, 3D printing, and machine learning.
-  - name: "STH"
-    picture: "placeholder.png"
+  - name: "Steinar Trædal-Henden"
+    picture: "sth.png"
     text:
-      (text will be added soon)
+      Manager of the enterprise digital research services group at UiT. Deputy
+      manager of the operations organization in NRIS.
   - name: "IZ"
     picture: "placeholder.png"
     text:
