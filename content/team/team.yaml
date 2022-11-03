@@ -17,10 +17,10 @@ team:
       New member to the team, currently working on his masters in computer science. 
       He is working on the GPU team, and has experience in coding in Python, C(plain,# and ++) and a little in golang. 
       Vetle is specialising in machine learning, and are familiar with frameworks such as TensorFlow and Pytorch. 
-  - name: "DJ"
-    picture: "placeholder.png"
+  - name: "Dan Jonsson"
+    picture: "Dan_D_Jonsson_v2.jpg"
     text:
-      (text will be added soon)
+      Member of the Software Installation Team at NRIS. Trying to provide a scientific software stack that offer both performance and reproducibility.
   - name: "Pavel Kucera"
     picture: "pk.png"
     text:
