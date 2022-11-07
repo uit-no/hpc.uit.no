@@ -18,6 +18,7 @@ branch. The branch `gh-pages` should not be manually modified.
 
 ### Local preview
 
+- `git clone --recursive` this repository to also fetch the CSS framework.
 - Install [Zola](https://www.getzola.org/). Or you can download the binary from
   [here](https://github.com/getzola/zola/releases).
 - Serve locally: `$ zola serve`
