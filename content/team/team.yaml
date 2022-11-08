@@ -33,9 +33,9 @@ team:
       in an open source environment. Trying to be open sourced personally in
       his free time as well - mainly on water and in mountains.
   - name: "Truls Mathiassen"
-    picture: "placeholder.png"
+    picture: "tm.png"
     text:
-      ""
+      Member of infrastructure team at NRIS. sysadmin on national hpc clusters and storage solutions.
   - name: "Espen Tangen"
     picture: "placeholder.png"
     text: ""
