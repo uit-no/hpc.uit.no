@@ -10,7 +10,12 @@ team:
   - name: "Jørn Dietze"
     picture: "jd.png"
     text:
-      Jørn Dietze is almost finished with a Ph.D in bioinformatics. He is working with high-performance computing systems and has experience with programming in Python, Julia, and a little bit of C. He is mainly busy with making the systems more usuable as part of NRIS at the University of Tromsø, Norway, and the [LUMI User Support Team](https://www.lumi-supercomputer.eu/).
+      Jørn Dietze is almost finished with a Ph.D in bioinformatics. He is
+      working with high-performance computing systems and has experience with
+      programming in Python, Julia, and a little bit of C. He is mainly busy
+      with making the systems more usuable as part of NRIS at the University of
+      Tromsø, Norway, and the [LUMI User Support
+      Team](https://www.lumi-supercomputer.eu/).
   - name: "Vetle Hofsøy-Woie"
     picture: "vhw.png"
     text:
