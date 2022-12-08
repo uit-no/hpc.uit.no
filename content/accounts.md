@@ -13,7 +13,7 @@ course accounts if you plan to teach using HPC resources.
 ## Test account
 
 If you wish to try out the resources for your own research, [apply
-here](https://www.metacenter.no/user/application/form/notur/) for an user
+here](https://www.metacenter.no/user/application/form/hpc/) for an user
 account for project "NN8999K: Running recruitment UiT". Make sure that you use
 your UiT e-mail when signing up. Further instructions will follow via e-mail.
 
