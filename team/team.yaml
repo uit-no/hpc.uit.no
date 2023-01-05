@@ -1,0 +1,65 @@
+---
+team:
+  - name: "Radovan Bast"
+    picture: "rb.jpg"
+    text:
+      Leads the [CodeRefinery](https://coderefinery.org)
+      project and the high-performance computing and research software
+      engineering groups.  Specializes in software development, teaching, and
+      improving usability of HPC services.
+  - name: "Jørn Dietze"
+    picture: "jd.png"
+    text:
+      Jørn Dietze is almost finished with a Ph.D in bioinformatics. He is
+      working with high-performance computing systems and has experience with
+      programming in Python, Julia, and a little bit of C. He is mainly busy
+      with making the systems more usuable as part of NRIS at the University of
+      Tromsø, Norway, and the [LUMI User Support
+      Team](https://www.lumi-supercomputer.eu/).
+  - name: "Vetle Hofsøy-Woie"
+    picture: "vhw.png"
+    text:
+      New member to the team, currently working on his masters in computer science.
+      He is working on the GPU team, and has experience in coding in Python, C(plain,# and ++) and a little in golang.
+      Vetle is specialising in machine learning, and are familiar with frameworks such as TensorFlow and Pytorch.
+  - name: "Dan Jonsson"
+    picture: "dj.jpg"
+    text:
+      Member of the Software Installation Team at NRIS. Trying to provide a scientific software stack that offer both performance and reproducibility.
+  - name: "Pavel Kucera"
+    picture: "pk.png"
+    text:
+      Sysadmin interested mainly in networking, automation, and virtualization
+      in an open source environment. Trying to be open sourced personally in
+      his free time as well - mainly on water and in mountains.
+  - name: "Espen Tangen"
+    picture: "placeholder.png"
+    text: ""
+  - name: "Øystein Tveito"
+    picture: "ot.jpg"
+    text:
+      Newest member of the team that will be working on monitoring solutions
+      for HPC and maintaining the infrastructure. He has experience in
+      programming, IoT, 3D printing, and machine learning.
+  - name: "Steinar Trædal-Henden"
+    picture: "sth.png"
+    text:
+      Manager of the enterprise digital research services group at UiT. Deputy
+      manager of the operations organization in NRIS.
+  - name: "Ilia Zhakun"
+    picture: "iz.jpg"
+    text:
+      Change Manager in the [NRIS](https://www.sigma2.no/nris) collaboration.
+      Works with the infrastructure and hardware as well.
+  - name: "Magnar Bjørgve"
+    picture: "mb.JPG"
+    text:
+      New member to the team, currently wrapping up his PhD in quantum chemistry.
+      Magnar has a background in applied mathematics.
+  - name: "Bente Barge"
+    picture: "BSB.jpg"
+    text:
+      Part-time member of the team. Bente is currently a PhD student in 
+      computational chemistry and has experience with various chemistry 
+      software on the HPC clusters. Her interests include research software 
+      engineering, web development and cats.
