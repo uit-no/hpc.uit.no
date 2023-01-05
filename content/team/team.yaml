@@ -51,3 +51,8 @@ team:
     text:
       Change Manager in the [NRIS](https://www.sigma2.no/nris) collaboration.
       Works with the infrastructure and hardware as well.
+  - name: "Magnar Bjørgve"
+    picture: "mb.JPG"
+    text:
+      New member to the team, currently wrapping up his PhD in quantum chemistry.
+      Magnar has a background in applied mathematics.
