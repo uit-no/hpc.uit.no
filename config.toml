@@ -26,6 +26,7 @@ highlight_theme = "cheerfully-light"
 navigation = [
   { name = "Home", target = "/" },
   { name = "Team", target = "/team/" },
+  { name = "Projects", target = "/projects/" },
   { name = "Courses", target = "/courses/" },
   { name = "Accounts", target = "/accounts/" },
   { name = "NRIS", target = "https://documentation.sigma2.no/" },
