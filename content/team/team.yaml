@@ -16,12 +16,6 @@ team:
       with making the systems more usuable as part of NRIS at the University of
       Tromsø, Norway, and the [LUMI User Support
       Team](https://www.lumi-supercomputer.eu/).
-  - name: "Vetle Hofsøy-Woie"
-    picture: "vhw.png"
-    text:
-      New member to the team, currently working on his masters in computer science.
-      He is working on the GPU team, and has experience in coding in Python, C(plain,# and ++) and a little in golang.
-      Vetle is specialising in machine learning, and are familiar with frameworks such as TensorFlow and Pytorch.
   - name: "Dan Jonsson"
     picture: "dj.jpg"
     text:
