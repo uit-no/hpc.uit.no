@@ -3,34 +3,74 @@
 
 # About us
 
+On this page we summarize what we do more long-term. We also have a page about
+our [projects](@/projects.md).
+
+
 ## Hardware
 
-- Keeping Fram alive
-- NIRD
+There are currently two different machines located at UiT. Fram is a
+supercomputer with over 1000 individual nodes, each with 32 cores, capable of
+1.1 PFLOP/s. A large portion of our job is to make sure that this machine
+operates at peak capacity. 
+
+We also have one part of NIRD located in Tromsø. NIRD is a storage centric
+machine, focusing on fulfilling needs for research that require storage and
+computing on data where a single dataset can be several terabytes in size.
+Although all NIRD operations are in the process of being moved to Lefdal Mine
+Datacenter, we are still maintaining the "old" NIRD instance here. The future
+of this system is still being discussed.
+
+For both machines, typical tasks include replacing failing components,
+rebooting machines that has stopped working, and upgrade or replace parts of
+the machine when new capabilities or improved performance is available.
 
 
 ## Software
 
-- RSE
-- GPU team
-- Software team?
-- Internal tooling
+- **GPU for HPC**:
+  Our team is dedicated to enhancing GPU usage for both NVIDIA (Saga and Betzy) and AMD (LUMI-G) GPUs.
+  Part of our duties involves crafting comprehensive tutorials that facilitate understanding and optimal
+  utilization of both NVIDIA and AMD GPUs. We also actively participate in, and organize, training events
+  with the aim of fostering GPU operation skills among users. Furthermore, we provide consistent user support,
+  helping users navigate the complexities and solve any issues they may encounter in GPU usage.
+- **Research software engineering**:
+  Within the [research software engineering group at UiT](https://research-software.uit.no),
+  we interact closely with users to facilitate their software development process. Our services range from
+  assisting in enhancing your scripts or code, to helping in organizing your code for optimal efficiency.
+  We also provide guidance on how to effectively share your code with others. Additionally, we offer support
+  aimed at improving the performance of your code to ensure it runs faster and more efficiently.
+- **Software team**: We contribute to software installations for NRIS clusters.
+  We use [EasyBuild](https://docs.easybuild.io) as the main software installation management tool. 
+- **Internal tooling**:
+  We develop internal tools for HPC systems that improve the user and support experience:
+  * [dusage](https://github.com/NordicHPC/dusage/) shows storage quota and usage on the national HPC systems
+  * [sonar](https://github.com/NordicHPC/sonar/) collects data on jobs resource usage
+  * [jobgraph](https://github.com/NordicHPC/jobgraph/) uses data from sonar and plots info from jobs
 
 
-## Outreach
+## Outreach and on-boarding
 
-- Test-account
+- We help new users getting started through the [small scale exploratory work
+- projects](https://www.sigma2.no/small-scale-exploratory-work). On
+  [this page](@/accounts.md) we describe how you can get access to a test
+  account or a course account.
+- We are planning to start later this year with regular (weekly) office hours
+  to provide a contact point to discuss ideas and issues with user communities.
 
 
 ## Training
 
-- CodeRefinery
+With other NRIS centers and international collaborations we develop and deliver courses and training events:
+- [NRIS training portal](https://documentation.sigma2.no/training/events.html)
+- [CodeRefinery](https://coderefinery.org/)
 
 
-## User support
+## Support
 
-- Providing support for NRIS users and improving
-- Helping new users getting started
-- Extended user support
-- Advanced user support
-- Documentation
+- We provide support for NRIS users and improving usability. 
+- We help new users getting started through the [small scale exploratory work projects](https://www.sigma2.no/small-scale-exploratory-work)
+- Extended user support (support that requires few days of work)
+- Advanced user support (support that requires few weeks of work)
+- Improving the [documentation](https://documentation.sigma2.no/)
+- Improving internal policies to make things easier for users
