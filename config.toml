@@ -26,6 +26,7 @@ highlight_theme = "cheerfully-light"
 navigation = [
   { name = "Home", target = "/" },
   { name = "Team", target = "/team/" },
+  { name = "About us", target = "/about/" },
   { name = "Projects", target = "/projects/" },
   { name = "Training", target = "/training/" },
   { name = "Accounts", target = "/accounts/" },
