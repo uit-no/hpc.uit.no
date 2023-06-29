@@ -83,5 +83,5 @@ community. Goal is to provide:
 - Condensation issues on Fram: Solved by adding insulation to pipes and metal
   parts being directly exposed to room-air.
 - Are discussing better solutions to prevent condensation issues in the future
-  with representatives from BEA and other user groups of DS2. One possible
-  solution is an air-condition unit for the room.
+  with representatives from building maintenance and other user groups of the
+  data center. One possible solution is an air-condition unit for the room.
