@@ -1,6 +1,7 @@
 +++
 +++
 
+
 # About us
 
 On this page we summarize what we do more long-term. We also have a page about
@@ -51,9 +52,9 @@ the machine when new capabilities or improved performance is available.
 
 ## Outreach and on-boarding
 
-- We help new users getting started through the [small scale exploratory work
-- projects](https://www.sigma2.no/small-scale-exploratory-work). On
-  [this page](@/accounts.md) we describe how you can get access to a test
+- We help new users getting started through the
+  [small scale exploratory work projects](https://www.sigma2.no/small-scale-exploratory-work).
+- On [this page](@/accounts.md) we describe how you can get access to a test
   account or a course account.
 - We are planning to start later this year with regular (weekly) office hours
   to provide a contact point to discuss ideas and issues with user communities.
