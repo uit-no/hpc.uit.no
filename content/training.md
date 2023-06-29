@@ -1,7 +1,7 @@
 +++
 +++
 
-# Courses
+# Training
 
 Most courses we do are developed and organized together with
 [CodeRefinery](https://coderefinery.org/) and

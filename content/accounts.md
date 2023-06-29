@@ -36,5 +36,5 @@ interesting for you or your faculty, please [contact us](/contact/).
 ## Getting started
 
 To get started using the you could either sign up for one of our
-[courses](/courses/) or dive into our
+[training](/training/) or dive into our
 [documentation](https://documentation.sigma2.no/). 
