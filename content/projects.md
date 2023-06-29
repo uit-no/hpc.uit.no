@@ -3,30 +3,85 @@
 
 # Projects
 
-This page lists our team members and their projects.
-
-## Magnars projects
-
-### GPU Team and CUDA Programming
-As part of the High Performance Computing (HPC) group at our university,
-I specialize in operating within the GPU team. My primary focus lies on CUDA
-programming, primarily for NVIDIA GPUs integrated into the SAGA and Betzy HPC
-systems. These powerful systems leverage the computational capabilities of GPUs
-to perform complex mathematical computations, leading to more efficient
-scientific computing and simulations. Through CUDA, we're able to unlock the
-potential of these GPUs, granting researchers the tools needed to drive
-breakthroughs across various fields.
+On this page we summarize what projects we currently work on. Not everything
+here is finished but we think it is useful if we communicate with the research
+community about what is brewing in the HPC group. For the more long-term work,
+please check the ["about us" page](@/about.md).
 
 
-### Transition to LUMI and HIP
-Recently, my work has been evolving to include more involvement with the LUMI HPC system, which utilizes AMD GPUs. This transition requires a shift from the CUDA programming language to Heterogeneous-Compute Interface for Portability (HIP). HIP is AMD's language that allows CUDA codes to be ported into a format that AMD GPUs can understand, broadening the application of our research and computational capabilities. The future will certainly be rich with HIP as we continue to adapt and optimize for different platforms and computing environments.
+## Newsletter and easier contact point
 
-### Porting Codes from CPU to GPU and CUDA to HIP
+We are working on creating an easier contact point for UiT students and
+researchers and staff to reach us. Soon there will be an email address which
+will directly connect to our internal issue tracking.
 
-In the upcoming period, I'm excited to be dedicating my time to the porting of codes from CPU to GPU, as well as from CUDA to HIP. Porting involves translating software to function in a different computing environment than originally intended. The shift from CPU to GPU computing can lead to significant improvements in computing speed and efficiency, due to the GPUs' ability to handle multiple tasks concurrently. Transitioning from CUDA to HIP, on the other hand, will allow our codebase to be more versatile, functional across both NVIDIA and AMD GPU architectures.
-### GPU Documentation
-In an effort to bridge the knowledge gap and foster user accessibility, I actively contribute to the GPU documentation at documentation.sigma2.no. This documentation acts as a comprehensive guide for users of our HPC systems, covering everything from basic operations to advanced troubleshooting. By developing clear and detailed instructions, we hope to empower users to fully utilize our HPC resources, thus boosting productivity and innovation.
-### Support for HPC Systems in Norway
-In addition to my technical roles, I also provide support for the HPC systems in Norway. This involves troubleshooting system issues, optimizing system performance, and assisting users with any challenges they encounter. I'm proud to be part of a network that ensures the smooth operation of these high-powered computational tools, as they are essential to numerous scientific research endeavors.
-### Research Software Engineering at UiT
-Lastly, I am also deeply involved in the Research Software Engineering (RSE) effort at the University of Tromsø – The Arctic University of Norway (UiT). As part of this initiative, I collaborate with researchers to develop, maintain, and optimize research software. Our goal is to facilitate more efficient, reproducible, and reliable research by leveraging the power of modern computing. It's an exciting and rewarding intersection of academia and technology that continually drives me to learn and innovate.
+We are also testing a newsletter solution which we plan to deploy after summer
+break. Students and researchers will be able to subscribe (and unsubscribe) to
+receive news about training, events, support sessions, and hardware updates.
+
+ 
+## Sonar/jobgraph
+
+[Sonar](https://github.com/NordicHPC/sonar) and
+[jobgraph](https://github.com/NordicHPC/jobgraph) are tools we develop to make
+it easier for users to check the resource usage of their jobs graphically in
+the terminal. These tools will also help us to collect resource usage data over
+time and create benchmarks for future hardware procurements.
+
+
+## Job script generator
+
+We have developed this nice page which can help to create job scripts:
+<https://open.pages.sigma2.no/job-script-generator/>
+
+
+## On-boarding new users and user groups
+
+We are helping two new user groups moving their compute work and storage to
+NRIS resources.
+
+
+## jupyter.uit.no
+
+We are helping with testing the <https://jupyter.uit.no/> which is a
+[JupyterLab](https://jupyter.org/) instance available to anyone with a UiT user
+account.
+
+
+## Introducing FitSM
+
+We are implementing the [FitSM](https://www.fitsm.eu) - the lightweight IT
+Management framework in the [NRIS](https://documentation.sigma2.no)
+collaboration. This organisational model is developed for federated
+organisations like ours to clearly define roles, introduce workflows and
+processes like Service portfolio management, Incident management or Continual
+service improvement management (14 processes in total). 
+
+Some of our goals with introducing the FitSM are: to clearly define
+responsibilities and make them process-bound and well-documented, to keep track
+of the ongoing projects and daily work, to have the complete and up-to-date
+overview of services and service components, etc. At the moment the Change
+Management, Continual Service Improvement Management, Incident & Service
+Request Management processes are implemented and taken in use, for the rest of
+the FitSM process the work is underway.
+
+
+## EESSI
+
+We contribute to the [European Environment for Scientific Software
+Installations](https://www.eessi-hpc.org/) (EESSI) project. EESSI (pronounced
+as "easy") is a collaboration between different European partners in HPC
+community. Goal is to provide:
+- a shared stack of scientific software installations
+- uniform user experience: same software available on local laptop or
+  workstation as in the cloud or HPC site
+- no performance penalty: binaries optimized for your architectures
+
+
+## Hardware
+
+- Condensation issues on Fram: Solved by adding insulation to pipes and metal
+  parts being directly exposed to room-air.
+- Are discussing better solutions to prevent condensation issues in the future
+  with representatives from BEA and other user groups of DS2. One possible
+  solution is an air-condition unit for the room.
