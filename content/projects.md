@@ -78,10 +78,21 @@ community. Goal is to provide:
 - no performance penalty: binaries optimized for your architectures
 
 
-## Hardware
+## Condensation problems
 
-- Condensation issues on Fram: Solved by adding insulation to pipes and metal
-  parts being directly exposed to room-air.
-- Are discussing better solutions to prevent condensation issues in the future
-  with representatives from building maintenance and other user groups of the
-  data center. One possible solution is an air-condition unit for the room.
+In the backdrop of the digital world, where each byte and command you input brings forth a dazzling array of results on your screen, there's a giant machine ticking away. With the ability to solve complex computations at an unprecedented speed, Fram isn't just a collection of circuits and wires. Fram, like every powerful machine, has its own set of challenges that we need to overcome to keep it running smoothly.
+
+Lately, we've been tackling an issue that might not immediately come to mind when you think about supercomputing: condensation. Yes, even in the high-tech world of computational wizardry, we grapple with some decidedly low-tech problems.
+
+Our recent weather in Tromsø has been unusually warm. While most of us enjoy the pleasant climate, Fram has been feeling the heat. Specifically, the warmer weather has been causing condensation on the water-cooling system that Fram uses to maintain optimal operating temperatures. The biggest challenge? The metal connectors that link the hoses bringing in chilly 7°C water.
+
+So how do you solve a problem like condensation in a supercomputer? The solution came in the form of insulating foam. By adding this foam to the couplings, we've been able to limit the exposure of the cold metal to the humid summer air, thus preventing condensation from forming.
+
+We admit, the solution sounds remarkably ordinary. By applying this layer of insulation, we've hopefully thwarted a potentially damaging condensation issue, safeguarding Fram's performance and ensuring that your data processing and computational tasks go uninterrupted.
+
+This process may not have been as glamorous as discovering a revolutionary algorithm or creating an innovative application, but it's precisely this type of problem-solving that ensures Fram runs optimally 24/7. It's the unglamorous, mundane tasks, like insulating connectors, that can often have the biggest impact on system performance.
+
+We share this experience to shed light on the often overlooked aspects of maintaining a supercomputer like Fram. Every component, from the sophisticated processors to the humble hose connectors, plays a vital role in the supercomputer's function. And sometimes, tackling a 'simple' problem like condensation requires just as much attention as the complex computational tasks that Fram performs daily.
+
+We are committed to maintaining the integrity and performance of Fram, whatever the weather. We hope this insight into our work brings you a deeper understanding of the complex tapestry of tasks that go into managing a supercomputer.
+
