@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+
+{% block content %}
+  <h1>News</h1>
+
+  {% set posts = get_section(path="news/_index.md") %}
+  <ul>
+    {% for post in posts.pages %}
+      <li>
+        <a class="post-title" href="{{ post.permalink }}">
+          {{ post.title }}
+        </a>
+        <span class="post-date">
+          ({{ post.date }})
+        </span>
+        {% if post.description %}
+          <div class="post-description">
+            {{ post.description }}
+          </div>
+        {% endif %}
+      </li>
+    {% endfor %}
+  </ul>
+{% endblock content %}
