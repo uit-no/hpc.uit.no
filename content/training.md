@@ -7,6 +7,9 @@ Most courses we do are developed and organized together with
 [CodeRefinery](https://coderefinery.org/) and
 [NRIS](https://documentation.sigma2.no/).
 
+You can also join our [email newsletter](@/contact.md) to stay up-to-date about
+courses and events.
+
 
 ## Upcoming courses we recommend
 

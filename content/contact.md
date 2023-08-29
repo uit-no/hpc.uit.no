@@ -3,7 +3,24 @@
 
 # Contact
 
-<a href="mailto:hpc@uit.no" uk-icon="icon: mail">hpc@uit.no</a>
+
+## How to reach us via email
+
+Write to `hpc@uit.no`.
+
+
+## Newsletter
+
+We plan to send out an email newsletter about courses and events every 1-3 months.
+
+- You can **subscribe** like this:
+  Send an email to `sympa@list.uit.no` with the subject `subscribe hpc-news
+  Firstnames Lastname` (replace Firstnames and Lastname) and an empty email
+  body.
+
+- Or **unsubscribe** like this:
+  Send an email to `sympa@list.uit.no` with the subject `unsubscribe
+  hpc-news` and an empty email body.
 
 
 ## Where to find us on the campus
