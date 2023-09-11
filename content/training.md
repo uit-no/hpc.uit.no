@@ -13,12 +13,15 @@ courses and events.
 
 ## Upcoming courses we recommend
 
-- In the autumn we will organize courses on "HPC On-boarding" and "Best Practices on NRIS Clusters" (dates to be announced soon).
-- We also plan a new intermediate course to provide a smoother progression from the On-boarding course.
 - In September we will contribute to a [CodeRefinery
   workshop](https://coderefinery.org/workshops/upcoming/). We have written a
   [blog post](https://coderefinery.org/blog/2023/06/25/planning-sep-workshop/)
   where we summarize planned improvements.
+- [HPC on-boarding
+  course](https://documentation.sigma2.no/training/events/2023-10-hpc-on-boarding.html)
+  for new users on Saga, Fram and Betzy. 3.-5. October, online
+- "Best Practices on NRIS Clusters". Bit more advanced level course. (date to be announced soon).
+- We also plan a new intermediate course to provide a smoother progression from the On-boarding course.
 - We plan a "Python for Scientific Computing" course in November (dates to be announced soon).
 
 
