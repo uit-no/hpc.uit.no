@@ -19,7 +19,8 @@ courses and events.
   where we summarize planned improvements.
 - [HPC on-boarding
   course](https://documentation.sigma2.no/training/events/2023-10-hpc-on-boarding.html)
-  for new users on Saga, Fram and Betzy. 3.-5. October, online
+  for new users on Saga, Fram and Betzy. 3.-5. October, online.
+- [FAIR Data Visualisation](https://uit.no/tavla/artikkel/823818/fair_data_visualisation), October 17 - 19 and 23, Tromsø Breivika campus.
 - "Best Practices on NRIS Clusters". Bit more advanced level course. (date to be announced soon).
 - We also plan a new intermediate course to provide a smoother progression from the On-boarding course.
 - We plan a "Python for Scientific Computing" course in November (dates to be announced soon).
