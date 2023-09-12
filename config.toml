@@ -28,7 +28,7 @@ navigation = [
   { name = "Team", target = "/team/" },
   { name = "About us", target = "/about/" },
   { name = "Projects", target = "/projects/" },
-  { name = "Training", target = "/training/" },
+  { name = "Training and events", target = "/training/" },
   { name = "Accounts", target = "/accounts/" },
   { name = "NRIS", target = "https://documentation.sigma2.no/" },
   { name = "Contact", target = "/contact/" },
