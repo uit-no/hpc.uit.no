@@ -1,7 +1,7 @@
 +++
 +++
 
-# Training
+# Training and events
 
 Most courses we do are developed and organized together with
 [CodeRefinery](https://coderefinery.org/) and
@@ -11,12 +11,13 @@ You can also join our [email newsletter](@/contact.md) to stay up-to-date about
 courses and events.
 
 
-## Upcoming courses we recommend
+## Upcoming events and courses we recommend
 
 - In September we will contribute to a [CodeRefinery
   workshop](https://coderefinery.org/workshops/upcoming/). We have written a
   [blog post](https://coderefinery.org/blog/2023/06/25/planning-sep-workshop/)
   where we summarize planned improvements.
+- [Meet the HPC group October 3](@/events/outreach2023.md). We invite users and potential users to an informal meeting with pizza and talks on good practices using our resources. 
 - [HPC on-boarding
   course](https://documentation.sigma2.no/training/events/2023-10-hpc-on-boarding.html)
   for new users on Saga, Fram and Betzy. 3.-5. October, online.
