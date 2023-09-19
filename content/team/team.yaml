@@ -1,5 +1,12 @@
 ---
 team:
+  - name: "Bente Barge"
+    picture: "BSB.jpg"
+    text:
+      Part-time member of the team. Bente is currently a PhD student in
+      computational chemistry and has experience with various chemistry
+      software on the HPC clusters. Her interests include research software
+      engineering, web development and cats.
   - name: "Radovan Bast"
     picture: "rb.jpg"
     text:
@@ -7,10 +14,15 @@ team:
       project and the high-performance computing and research software
       engineering groups.  Specializes in software development, teaching, and
       improving usability of HPC services.
+  - name: "Magnar Bjørgve"
+    picture: "mb.jpeg"
+    text:
+      New member to the team, currently wrapping up his PhD in quantum chemistry.
+      Magnar has a background in applied mathematics.
   - name: "Jørn Dietze"
     picture: "jd.png"
     text:
-      Jørn Dietze is almost finished with a Ph.D in bioinformatics. He is
+      Jørn Dietze is almost finished with a PhD in bioinformatics. He is
       working with high-performance computing systems and has experience with
       programming in Python, Julia, and a little bit of C. He is mainly busy
       with making the systems more usuable as part of NRIS at the University of
@@ -39,15 +51,3 @@ team:
     text:
       Change Manager in the [NRIS](https://www.sigma2.no/nris) collaboration.
       Works with the infrastructure and hardware as well.
-  - name: "Magnar Bjørgve"
-    picture: "mb.jpeg"
-    text:
-      New member to the team, currently wrapping up his PhD in quantum chemistry.
-      Magnar has a background in applied mathematics.
-  - name: "Bente Barge"
-    picture: "BSB.jpg"
-    text:
-      Part-time member of the team. Bente is currently a PhD student in
-      computational chemistry and has experience with various chemistry
-      software on the HPC clusters. Her interests include research software
-      engineering, web development and cats.
