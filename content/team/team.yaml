@@ -20,12 +20,6 @@ team:
     picture: "dj.jpg"
     text:
       Member of the Software Installation Team at NRIS. Trying to provide a scientific software stack that offer both performance and reproducibility.
-  - name: "Pavel Kucera"
-    picture: "pk.png"
-    text:
-      Sysadmin interested mainly in networking, automation, and virtualization
-      in an open source environment. Trying to be open sourced personally in
-      his free time as well - mainly on water and in mountains.
   - name: "Espen Tangen"
     picture: "placeholder.png"
     text: ""
