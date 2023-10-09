@@ -1,9 +1,9 @@
 {% extends "base.html" %}
 
 {% block content %}
-  <h1>News</h1>
+  <h1>Blog posts</h1>
 
-  {% set posts = get_section(path="news/_index.md") %}
+  {% set posts = get_section(path="blog/_index.md") %}
   <ul>
     {% for post in posts.pages %}
       <li>

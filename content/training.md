@@ -12,23 +12,16 @@ courses and events.
 
 
 ## Upcoming events and courses we recommend
-
-- In September we will contribute to a [CodeRefinery
-  workshop](https://coderefinery.org/workshops/upcoming/). We have written a
-  [blog post](https://coderefinery.org/blog/2023/06/25/planning-sep-workshop/)
-  where we summarize planned improvements.
-- [Meet the HPC group October 3](@/events/outreach2023.md). We invite users and potential users to an informal meeting with pizza and talks on good practices using our resources. 
-- [HPC on-boarding
-  course](https://documentation.sigma2.no/training/events/2023-10-hpc-on-boarding.html)
-  for new users on Saga, Fram and Betzy. 3.-5. October, online.
 - [FAIR Data Visualisation](https://uit.no/tavla/artikkel/823818/fair_data_visualisation), October 17 - 19 and 23, Tromsø Breivika campus.
 - "Best Practices on NRIS Clusters". Bit more advanced level course. (date to be announced soon).
 - We also plan a new intermediate course to provide a smoother progression from the On-boarding course.
 - We plan a "Python for Scientific Computing" course in November (dates to be announced soon).
 
 
-## Recent courses we co-organized
-
+## Recent courses and events
+- [Meet the HPC group October 3 2023](@/events/outreach2023.md). We invited users and potential users to an informal meeting with pizza and talks on good practices using our resources. Read more about the event on our [blog](@/blog/2023-outreach-event.md).
+- [HPC On-boarding, October 3-5, 2023](https://documentation.sigma2.no/training/events/2023-10-hpc-on-boarding.html)
+- [CodeRefinery workshop September 19-21 and 26-28, 2023](https://coderefinery.github.io/2023-09-19-workshop/)
 - [Best Practices on NRIS Clusters, May 9-11, 2023](https://documentation.sigma2.no/training/events/2023-05-best-practices-on-NRIS-clusters.html)
 - [HPC On-boarding, April 18-20, 2023](https://documentation.sigma2.no/training/events/2023-04-hpc-on-boarding.html)
 - [CodeRefinery workshop March 21-23 and 28-30, 2023](https://coderefinery.org/workshops/upcoming/)
