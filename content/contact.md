@@ -9,6 +9,11 @@
 Write to `hpc@uit.no`.
 
 
+## Weekly office hour
+
+Every Wednesday from 10:00 to 12:00 in [room A210 in Modulbygget](https://use.mazemap.com/#v=1&zlevel=2&center=18.972380,69.683702&zoom=20.6&campusid=5&sharepoitype=poi&sharepoi=174371)
+
+
 ## Newsletter
 
 We plan to send out an email newsletter about courses and events every 1-3 months.

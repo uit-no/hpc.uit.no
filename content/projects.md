@@ -11,13 +11,12 @@ please check the ["about us" page](@/about.md).
 
 ## Newsletter and easier contact point
 
-We are working on creating an easier contact point for UiT students and
-researchers and staff to reach us. Soon there will be an email address which
-will directly connect to our internal issue tracking.
+We are now easier to contact. First via our new email (`hpc@uit.no`) and second
+through our [weekly in-person office hours](/contact/).
 
-We are also testing a newsletter solution which we plan to deploy after summer
-break. Students and researchers will be able to subscribe (and unsubscribe) to
-receive news about training, events, support sessions, and hardware updates.
+We have also established a new HPC newsletter you can subscribe to receive news
+about training, events, support sessions, and hardware updates. [See here for an
+explanation on how to subscribe (and unsubscribe).](/contact/)
 
  
 ## Sonar/jobgraph

@@ -29,17 +29,17 @@ installation, code performance optimization, CPU and GPU programming, and
 
 - Support the [Norwegian Research Infrastructure Services (NRIS)](https://documentation.sigma2.no/).
 - Improve the usability of the NRIS services.
-- Help improving your scripts and codes and workflows so that you get more research done in less time.
+- [Help improving your scripts and codes and workflows so that you get more research done in less time.](research-software.uit.no/)
 - [Provide training](/training/) to give everybody the tools they need and confidence to use the tools.
 - Help you with access to national and international compute and storage resources.
 
 
 ## How to get in touch
 
+- Send us an email to `hpc@uit.no`
+- Visit us [on the campus](/contact/) during our weekly office hours every Wednesday 10:00--12:00.
 - Join one of our monthly NRIS [question & answer
   sessions](https://documentation.sigma2.no/getting_help/qa-sessions.html).
   This is the best place to ask questions or give us feedback on how we can
   improve the services.
-- Visit us [on the campus](/contact/) (we will establish weekly office hours
-  soon).
-- We will soon set up a newsletter.
+- [Subscribe to our newsletter with updates to training and other HPC related events.](/contact/)
