@@ -31,6 +31,7 @@ navigation = [
   { name = "Training and events", target = "/training/" },
   { name = "Accounts", target = "/accounts/" },
   { name = "NRIS", target = "https://documentation.sigma2.no/" },
+  { name = "Blog", target = "/blog/" },
   { name = "Contact", target = "/contact/" },
 ]
 

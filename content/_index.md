@@ -10,16 +10,6 @@ to talk to.
 
 {{ enddiv() }}
 
-{{ div(attributes='class="uk-card uk-card-secondary uk-card-body" style="text-align: center;"') }}
-## Upcoming events:
-
-**When?** TBA
-
-**Where?** TBA
-
-More information can be found [here](@/events/outreach2023.md).
-{{ enddiv() }}
-
 ## About the group
 
 We are part of the [Norwegian Research Infrastructure Services
