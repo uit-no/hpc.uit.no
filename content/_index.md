@@ -40,6 +40,5 @@ installation, code performance optimization, CPU and GPU programming, and
 - Visit us [on the campus](/contact/) during our weekly office hours every Wednesday 10:00--12:00.
 - Join one of our monthly NRIS [question & answer
   sessions](https://documentation.sigma2.no/getting_help/qa-sessions.html).
-  This is the best place to ask questions or give us feedback on how we can
-  improve the services.
+  This is the best place to ask questions or give us feedback on how we can improve the services.
 - [Subscribe to our newsletter with updates to training and other HPC related events.](/contact/)
