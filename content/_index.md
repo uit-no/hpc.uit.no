@@ -42,3 +42,12 @@ installation, code performance optimization, CPU and GPU programming, and
   sessions](https://documentation.sigma2.no/getting_help/qa-sessions.html).
   This is the best place to ask questions or give us feedback on how we can improve the services.
 - [Subscribe to our newsletter with updates to training and other HPC related events.](/contact/)
+
+
+{{ div(attributes='class="uk-card uk-card-secondary uk-card-body"') }}
+## Office hours: Every Wednesday 10:00 - 12:00
+
+Need help with anything high-performance computing or NRIS related? Or do need more computing power than your laptop can provide?  Then visit us during our office hours.
+Every Wednesday 13:00 - 15:00 in [room A209 in
+Modulbygget](https://use.mazemap.com/#v=1&zlevel=2&center=18.972617,69.683509&zoom=16.3&campusid=5&sharepoitype=poi&sharepoi=174370).
+{{ enddiv() }}
