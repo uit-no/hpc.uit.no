@@ -12,13 +12,18 @@ courses and events.
 
 
 ## Upcoming events and courses we recommend
-- [FAIR Data Visualisation](https://uit.no/tavla/artikkel/823818/fair_data_visualisation), October 17 - 19 and 23, Tromsø Breivika campus.
-- "Best Practices on NRIS Clusters". Bit more advanced level course. (date to be announced soon).
-- We also plan a new intermediate course to provide a smoother progression from the On-boarding course.
-- We plan a "Python for Scientific Computing" course in November (dates to be announced soon).
+
+- [CodeRefinery](https://coderefinery.org/) workshop: March 12-14 and 19-21, 2024
+- HPC on-boarding: April 9-11, 2024
+- Intermediate HPC course: we will announce dates soon
+- Tuesday Tools & Techniques for HPC: April 16 and 23, May 7 and 14 (4 sessions in total)
+- We plan a "Python for Scientific Computing" course, probably again in November
 
 
 ## Recent courses and events
+
+- [Python for Scientific Computing, November 7-10, 2023](https://aaltoscicomp.github.io/python-for-scicomp/)
+- [FAIR Data Visualisation](https://uit.no/tavla/artikkel/823818/fair_data_visualisation), October 17 - 19 and 23, Tromsø Breivika campus.
 - [Meet the HPC group October 3 2023](@/events/outreach2023.md). We invited users and potential users to an informal meeting with pizza and talks on good practices using our resources. Read more about the event on our [blog](@/blog/2023-outreach-event.md).
 - [HPC On-boarding, October 3-5, 2023](https://documentation.sigma2.no/training/events/2023-10-hpc-on-boarding.html)
 - [CodeRefinery workshop September 19-21 and 26-28, 2023](https://coderefinery.github.io/2023-09-19-workshop/)
