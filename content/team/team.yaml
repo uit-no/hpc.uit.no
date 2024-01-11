@@ -1,12 +1,5 @@
 ---
 team:
-  - name: "Bente Barge"
-    picture: "BSB.jpg"
-    text:
-      Part-time member of the team. Bente is currently a PhD student in
-      computational chemistry and has experience with various chemistry
-      software on the HPC clusters. Her interests include research software
-      engineering, web development and cats.
   - name: "Radovan Bast"
     picture: "rb.jpg"
     text:
