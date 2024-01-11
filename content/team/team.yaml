@@ -1,12 +1,5 @@
 ---
 team:
-  - name: "Bente Barge"
-    picture: "BSB.jpg"
-    text:
-      Part-time member of the team. Bente is currently a PhD student in
-      computational chemistry and has experience with various chemistry
-      software on the HPC clusters. Her interests include research software
-      engineering, web development and cats.
   - name: "Radovan Bast"
     picture: "rb.jpg"
     text:
@@ -51,3 +44,6 @@ team:
     text:
       Change Manager in the [NRIS](https://www.sigma2.no/nris) collaboration.
       Works with the infrastructure and hardware as well.
+past:
+  - name: "Bente Barge"
+    picture: "bsb.jpg"
