@@ -31,9 +31,8 @@ team:
   - name: "Øystein Tveito"
     picture: "ot.jpg"
     text:
-      Newest member of the team that will be working on monitoring solutions
-      for HPC and maintaining the infrastructure. He has experience in
-      programming, IoT, 3D printing, and machine learning.
+      Team leader for the SMS-team and problem manager for NRIS.
+      He has experience in programming, IoT, 3D printing, AI, and machine learning.
   - name: "Steinar Trædal-Henden"
     picture: "sth.png"
     text:
