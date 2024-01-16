@@ -44,6 +44,10 @@ team:
     text:
       Change Manager in the [NRIS](https://www.sigma2.no/nris) collaboration.
       Works with the infrastructure and hardware as well.
+  - name: "Erik Heggeli"
+    picture: "placeholder.png"
+    text:
+      Part of the GPU team and NAIC(Norwegian AI Cloud). Background in Computer Science.
 past:
   - name: "Bente Barge"
     picture: "bsb.jpg"
