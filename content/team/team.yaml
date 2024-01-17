@@ -10,8 +10,9 @@ team:
   - name: "Magnar Bjørgve"
     picture: "mb.jpeg"
     text:
-      New member to the team, currently wrapping up his PhD in quantum chemistry.
-      Magnar has a background in applied mathematics.
+      Magnar has a background in Applied Mathematics and is working within the GPU team at NRIS,
+      focusing on accelerating software for both NVIDIA and AMD GPUs. He is also contributing
+      to the [Norwegian AI Cloud](https://www.naic.no) in both storage solutions and training.
   - name: "Jørn Dietze"
     picture: "jd.png"
     text:
