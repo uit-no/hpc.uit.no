@@ -48,6 +48,10 @@ team:
     picture: "placeholder.png"
     text:
       Part of the GPU team and NAIC (Norwegian AI Cloud). Background in Computer Science.
+  - name: "Gregor Decristoforo"
+    picture: "gd.png"
+    text:
+      Gregor is part of the [Research software engineering (RSE) group](https://research-software.uit.no/) at UiT and the [LUMI User Support Team](https://www.lumi-supercomputer.eu/)During his PhD and Postdoc in Computational Physics Gregor gained experience in parallel programming and research software engineering. 
 past:
   - name: "Bente Barge"
     picture: "bsb.jpg"
