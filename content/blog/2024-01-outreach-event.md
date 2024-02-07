@@ -1,0 +1,62 @@
++++
+title = "UiT's HPC Group Meets Machine Learning Group"
+description = ""
+date = "2024-01-06"
+
+[extra]
+authors = "Magnar Bjorgve"
++++
+
+
+The High-Performance Computing (HPC) group at UiT The Arctic University of Norway recently
+hosted an outreach event with the Machine Learning group at the research park.
+The purpose of the event was for the Machine Learning group and other groups at
+the research park to learn about us and the resources we offer. To
+encourage further collaboration, we also wanted to hear about their research and how we could help them.
+
+<figure style="float: right; margin-left: 1em;">
+  <img src="/blog/2024-01-outreach-event.jpg" alt="Jørn presenting RSE" width="400px"/>
+  <div style="text-align: center;">
+    <figcaption style="text-align: center;">Jørn presenting RSE.</figcaption>
+  </div>
+</figure>
+
+
+## Introducing HPC Resources
+
+During the event, we took the opportunity to introduce ourselves and the
+resources we work on. Highlighting the GPU capabilities within the national systems Saga
+and Betzy, as well as the European-level resource LUMI-G. These tools are essential for
+researchers who need significant computing power in particular with GPUs, which is often
+the case in fields like Machine Learning.
+
+## Offering a Helping Hand
+
+We, the HPC group at UiT, wish to make sure that everyone has the opportunity
+to make the most out of these resources. We outlined the different types of support we
+offer, starting with basic email support for quick questions. For those needing a bit more
+guidance, office hours are available for face-to-face help.
+
+For projects that require more intensive assistance, we provide extended user support,
+which can last up to five working days. And for those with even more complex needs,
+there's the Advanced User Support program, offering substantial help for up to three
+person-months over a six-month period, provided an application is submitted and approved.
+
+The event also shone a light on the Research Engineering group, whose role is to help turn academic research into practical applications, especially those that can benefit from HPC.
+
+## Wrapping Up with Pizza
+
+The evening wound down with pizza and relaxed discussions among the attendees. This
+informal setting allowed everyone to chat about what they learned and explore potential
+collaborations in a friendly environment.
+
+
+The gathering was a simple yet effective way to bring together people with a shared
+interest in HPC and Machine Learning. It was a reminder that sometimes, the best way to
+build a community is by starting conversations over a slice of pizza.
+
+
+<div style="text-align: center;">
+  <img src="/blog/2024-01-outreach-event-pizza.jpg" alt="pizza" width="400px"/>
+  <figcaption>Espen and Øystein serving Pizza.</figcaption>
+</div>
