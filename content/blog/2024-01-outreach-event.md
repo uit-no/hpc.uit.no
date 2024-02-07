@@ -46,7 +46,7 @@ The event also shone a light on the Research Engineering group, whose role is to
 
 ## Wrapping Up with Pizza
 
-The we ended the event with pizza and relaxed discussions among the attendees. This
+We ended the event with pizza and relaxed discussions among the attendees. This
 informal setting allowed everyone to chat about what they learned and explore potential
 collaborations.
 
