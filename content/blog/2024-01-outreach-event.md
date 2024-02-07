@@ -46,12 +46,11 @@ The event also shone a light on the Research Engineering group, whose role is to
 
 ## Wrapping Up with Pizza
 
-The evening wound down with pizza and relaxed discussions among the attendees. This
+The we ended the event with pizza and relaxed discussions among the attendees. This
 informal setting allowed everyone to chat about what they learned and explore potential
-collaborations in a friendly environment.
+collaborations.
 
-
-The gathering was a simple yet effective way to bring together people with a shared
+The gathering was a simple yet effective way to bring our groups together with a shared
 interest in HPC and Machine Learning. It was a reminder that sometimes, the best way to
 build a community is by starting conversations over a slice of pizza.
 
