@@ -10,6 +10,11 @@ to talk to.
 
 {{ enddiv() }}
 
+
+{{ div(attributes='class="uk-child-width-expand@m" uk-grid') }}
+
+{{ div() }}
+
 ## About the group
 
 We are part of the [Norwegian Research Infrastructure Services
@@ -24,6 +29,25 @@ installation, code performance optimization, CPU and GPU programming, and
 
 [Here](/team/) you can meet the team.
 
+{{ enddiv() }}
+
+{{ div() }}
+
+## About NRIS
+
+The Norwegian research infrastructure services (NRIS) is a collaboration
+between Sigma2 and the universities of Bergen (UiB), Oslo (UiO), Tromsø (UiT
+The Arctic University of Norway) and NTNU, to provide national supercomputing
+and data storage services. These services are operated by NRIS and coordinated
+and managed by [Sigma2](https://www.sigma2.no/).
+
+{{ enddiv() }}
+
+{{ enddiv() }}
+
+{{ div(attributes='class="uk-child-width-expand@m" uk-grid') }}
+
+{{ div() }}
 
 ## Our goals
 
@@ -33,6 +57,9 @@ installation, code performance optimization, CPU and GPU programming, and
 - [Provide training](/training/) to give everybody the tools they need and confidence to use the tools.
 - Help you with access to national and international compute and storage resources.
 
+{{ enddiv() }}
+
+{{ div() }}
 
 ## How to get in touch
 
@@ -43,8 +70,12 @@ installation, code performance optimization, CPU and GPU programming, and
   This is the best place to ask questions or give us feedback on how we can improve the services.
 - [Subscribe to our newsletter with updates to training and other HPC related events.](/contact/)
 
+{{ enddiv() }}
 
-{{ div(attributes='class="uk-card uk-card-secondary uk-card-body"') }}
+{{ enddiv() }}
+
+
+{{ div(attributes='class="uk-card uk-card-secondary uk-card-body uk-margin-large-top"') }}
 ## Office hours: Every Wednesday 10:30 - 12:00
 
 Need help with anything high-performance computing or NRIS related? Or do need more computing power than your laptop can provide?  Then visit us during our office hours.
