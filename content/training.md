@@ -11,17 +11,18 @@ You can also join our [email newsletter](@/contact.md) to stay up-to-date about
 courses and events.
 
 
-## Upcoming events and courses we recommend
+## Upcoming events and courses
 
-- [CodeRefinery](https://coderefinery.org/) workshop: March 12-14 and 19-21, 2024
-- HPC on-boarding: April 9-11, 2024
-- Intermediate HPC course: we will announce dates soon
-- Tuesday Tools & Techniques for HPC: April 16 and 23, May 7 and 14 (4 sessions in total)
+- [HPC on-boarding: April 9-11, 2024](https://documentation.sigma2.no/training/events/2024-04-hpc-on-boarding.html)
+- [Tuesday Tools & Techniques for HPC](https://scicomp.aalto.fi/training/scip/ttt4hpc-2024/): April 16 and 23, May 7 and 14 (4 sessions in total)
+- [RTromsø, the R user group a UiT](https://uit-no.github.io/rtromso/): first meeting April 17
+- Info meeting with Geology June 7
 - We plan a "Python for Scientific Computing" course, probably again in November
 
 
 ## Recent courses and events
 
+- [CodeRefinery](https://coderefinery.org/) workshop: March 12-14 and 19-21, 2024
 - [Python for Scientific Computing, November 7-10, 2023](https://aaltoscicomp.github.io/python-for-scicomp/)
 - [FAIR Data Visualisation](https://uit.no/tavla/artikkel/823818/fair_data_visualisation), October 17 - 19 and 23, Tromsø Breivika campus.
 - [Meet the HPC group October 3 2023](@/events/outreach2023.md). We invited users and potential users to an informal meeting with pizza and talks on good practices using our resources. Read more about the event on our [blog](@/blog/2023-outreach-event.md).
