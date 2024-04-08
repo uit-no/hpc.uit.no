@@ -1,7 +1,9 @@
 {% extends "base.html" %}
 
 {% block content %}
-  <h1>Blog posts</h1>
+  <h1>Blog posts & past newsletters</h1>
+
+    Sign up to our mailing list to receive future newsletters. <a href="contact">See here for an explanation on how to subscribe (and unsubscribe).</a>
 
   {% set posts = get_section(path="blog/_index.md") %}
   <ul>
