@@ -6,7 +6,7 @@
 On this page we summarize what projects we currently work on. Not everything
 here is finished but we think it is useful if we communicate with the research
 community about what is brewing in the HPC group. For the more long-term work,
-please check the ["about us" page](@/about.md).
+please check the ["about us" page](/about/).
 
 
 ## Newsletter and easier contact point
@@ -18,7 +18,7 @@ We have also established a new HPC newsletter you can subscribe to receive news
 about training, events, support sessions, and hardware updates. [See here for an
 explanation on how to subscribe (and unsubscribe).](/contact/)
 
- 
+
 ## Sonar/jobgraph
 
 [Sonar](https://github.com/NordicHPC/sonar) and
@@ -54,7 +54,7 @@ Management framework in the [NRIS](https://documentation.sigma2.no)
 collaboration. This organisational model is developed for federated
 organisations like ours to clearly define roles, introduce workflows and
 processes like Service portfolio management, Incident management or Continual
-service improvement management (14 processes in total). 
+service improvement management (14 processes in total).
 
 Some of our goals with introducing the FitSM are: to clearly define
 responsibilities and make them process-bound and well-documented, to keep track

@@ -7,6 +7,10 @@
 On this page we summarize what we do more long-term. We also have a page about
 our [projects](@/projects.md).
 
+## Team
+
+[See the people working for the HPC group.](/about/team/)
+
 
 ## Hardware
 

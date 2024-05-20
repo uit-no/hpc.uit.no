@@ -3,11 +3,11 @@
 {% block content %}
   {{ section.content | safe }}
 
-  {% set data = load_data(path="content/team/team.yaml") %}
+  {% set data = load_data(path="content/about/team/team.yaml") %}
   <div class="uk-child-width-expand@s uk-text-center uk-margin-xlarge-top" uk-grid>
     {% for person in data.team %}
       <div class="uk-width-1-5@m">
-        {% set image = resize_image(path="team/" ~ person.picture, width=140, height=140, op="fill") %}
+        {% set image = resize_image(path="about/team/" ~ person.picture, width=140, height=140, op="fill") %}
         <img src="{{ image.url }}">
         <p>
           <b>{{ person.name }}</b>
@@ -21,7 +21,7 @@
   <div class="uk-child-width-expand@s uk-text-center uk-margin-xlarge-top" uk-grid>
     {% for person in data.past %}
       <div class="uk-width-1-5@m">
-        {% set image = resize_image(path="team/" ~ person.picture, width=140, height=140, op="fill") %}
+        {% set image = resize_image(path="about/team/" ~ person.picture, width=140, height=140, op="fill") %}
         <img src="{{ image.url }}">
         <p>
           <b>{{ person.name }}</b>
