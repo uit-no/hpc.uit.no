@@ -48,13 +48,13 @@ team:
     text:
       Gregor is part of the [Research software engineering (RSE) group](https://research-software.uit.no) at UiT and the [LUMI User Support Team](https://www.lumi-supercomputer.eu). During his PhD and Postdoc in Computational Physics Gregor gained experience in parallel programming and research software engineering. 
   - name: "Gabriel Gerez"
-      picture: "gg.jpeg"
-      text:
-        Gabriel is almost finished with his PhD in Theoretical chemistry with the Hylleraas centre. He is currently part of
-        the Software team at UiT providing support with installation and usage of scientific software
-        in the clusters. He is also part of the [Research software engineering (RSE) group](https://research-software.uit.no) at UiT where he helps researchers
-        with issues such as code design and scalability of software to HPC.
-        Gabriel is experienced in developing code in C++ and Python, and with version control using git.
+    picture: "gg.jpeg"
+    text:
+      Gabriel is almost finished with his PhD in Theoretical chemistry with the Hylleraas centre. He is currently part of
+      the Software team at UiT providing support with installation and usage of scientific software
+      in the clusters. He is also part of the [Research software engineering (RSE) group](https://research-software.uit.no) at UiT where he helps researchers
+      with issues such as code design and scalability of software to HPC.
+      Gabriel is experienced in developing code in C++ and Python, and with version control using git.
 past:
   - name: "Bente Barge"
     picture: "bsb.jpg"
