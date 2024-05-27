@@ -50,11 +50,11 @@ team:
   - name: "Gabriel Gerez"
     picture: "gg.jpeg"
     text:
-      Gabriel is almost finished with his PhD in Theoretical chemistry with the Hylleraas centre. He is currently part of
-      the Software team at UiT providing support with installation and usage of scientific software
-      in the clusters. He is also part of the [Research software engineering (RSE) group](https://research-software.uit.no) at UiT where he helps researchers
+      Gabriel is almost finished with his PhD in Theoretical chemistry. He is currently part of
+      the Software team providing support with installation and use of scientific software
+      in the clusters. He is part of the [Research software engineering (RSE) group](https://research-software.uit.no) at UiT where he helps researchers
       with issues such as code design and scalability of software to HPC.
-      Gabriel is experienced in developing code in C++ and Python, and with version control using git.
+      Gabriel is experienced in developing code in C++ and Python.
 past:
   - name: "Bente Barge"
     picture: "bsb.jpg"
