@@ -130,3 +130,39 @@ $heading-color: #404040;
     font-family: 'VT323', monospace;
     font-size: 3em;
 }
+
+.logo-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.logo-container-top-left img {
+  width: auto;
+  /* adjust as needed */
+  height: 75px;
+  /* maintain aspect ratio */
+}
+
+.logo-container-top-left {
+  display: flex;
+  justify-content: left;
+  /* center horizontally */
+  align-items: left;
+  /* center vertically */
+}
+
+.logo-container-top-right img {
+  width: auto;
+  /* adjust as needed */
+  height: 50px;
+  /* maintain aspect ratio */
+}
+
+.logo-container-top-right {
+  display: flex;
+  justify-content: right;
+  /* center horizontally */
+  align-items: right;
+  /* center vertically */
+}
