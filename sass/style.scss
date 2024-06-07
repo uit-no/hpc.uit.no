@@ -130,3 +130,27 @@ $heading-color: #404040;
     font-family: 'VT323', monospace;
     font-size: 3em;
 }
+
+.logo-container {
+  display: flex;
+  justify-content: flex-start;
+    align-items: center;
+}
+
+.logo-container .logo-uit {
+  width: 10vw;
+  min-width: 110px;
+  height: auto;
+  max-width: 160px;
+  object-fit: contain;
+  margin-right: 2vw;
+}
+
+.logo-container .logo-nris {
+  width: 8vw;
+  min-width: 88px;
+  height: auto;
+  max-width: 110px;
+  object-fit: contain;
+  margin-right: 2vw;
+}

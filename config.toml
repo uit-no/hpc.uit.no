@@ -33,4 +33,17 @@ navigation = [
   { name = "Contact", target = "/contact/" },
 ]
 
+logo_uit_seal_white = "img/UiT_seal_white.png"
+logo_uit_seal_black = "img/UiT_seal_black.png"
+logo_uit_seal_blue  = "img/UiT_seal_blue.png"
+
+logo_uit_2line_white = "img/UiT_2line_white.png"
+logo_uit_2line_blue  = "img/UiT_2line_blue.png"
+
+logo_nris_acronym_blue = "img/NRIS_acronym_blue.png"
+logo_nris_acronym_white = "img/NRIS_acronym_white.png"
+
+logo_nris_seal_blue = "img/NRIS_seal_blue.png"
+logo_nris_seal_white = "img/NRIS_seal_white.png"
+
 # twitter_image = "example.png"
