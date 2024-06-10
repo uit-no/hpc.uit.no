@@ -20,9 +20,6 @@ env:
   CNAME: "hpc.uit.no"
 
 on:
-  push:
-    branches:
-      - main
   pull_request:
     branches:
       - main
@@ -61,7 +58,7 @@ jobs:
             echo "Used CNAME from the action workflow file"
         fi
     - name: Deploy to gh-pages
-      if: ${{ github.event_name == 'push' && github.ref == format('refs/heads/{0}', env.MAIN_BRANCH) }}
+      if: ${{ github.event_name == 'pull_request' && github.ref == format('refs/heads/{0}', env.MAIN_BRANCH) }}
       uses: peaceiris/actions-gh-pages@v3
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
