@@ -38,15 +38,6 @@ jobs:
       uses: actions/checkout@v4
       with:
         submodules: recursive
-    - name: Extract pull request number
-      id: pr
-      run: echo "::set-output name=number::$(echo ${{ github.event.pull_request.number }})"
-      if: ${{ github.event_name == 'pull_request' }}
-    - name: Set environment variables
-      run: |
-        echo "TARGET_BRANCH=${{ env.TARGET_BRANCH }}-${{ steps.pr.outputs.number }}" >> $GITHUB_ENV
-        echo "CNAME=pr-${{ steps.pr.outputs.number }}.${{ env.CNAME }}" >> $GITHUB_ENV
-      if: ${{ github.event_name == 'pull_request' }}
     - name: Install zola
       run: |
         set -x
@@ -70,10 +61,9 @@ jobs:
             echo "Used CNAME from the action workflow file"
         fi
     - name: Deploy to gh-pages
-      if: ${{ github.event_name == 'push' && github.ref == format('refs/heads/{0}', env.MAIN_BRANCH) || github.event_name == 'pull_request' }}
+      if: ${{ github.event_name == 'push' && github.ref == format('refs/heads/{0}', env.MAIN_BRANCH) || github.event_name == 'pull_request'}}
       uses: peaceiris/actions-gh-pages@v3
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_dir: ./public
-        # force_orphan: true
-        publish_branch: ${{ env.TARGET_BRANCH }}
+        force_orphan: true
