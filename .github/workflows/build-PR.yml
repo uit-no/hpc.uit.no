@@ -11,7 +11,7 @@
 #   deploys will work.  See
 #   https://github.com/marketplace/actions/github-pages-action#%EF%B8%8F-first-deployment-with-github_token
 
-name: Build/deploy website
+name: Build PR/deploy website
 
 env:
   ZOLA_VERSION: "0.17.2"
