@@ -174,3 +174,28 @@ $heading-color: #404040;
   margin-right: 3px;
   /* Set the size of the gap between the lights */
 }
+.events-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  justify-content: normal;
+  margin: auto;
+}
+
+.calendar {
+  position: relative;
+  padding-bottom: 75%;
+  /* This ratio determines the aspect ratio of the calendar, which is height / width. Adjust as needed. */
+  height: 0;
+  overflow: hidden;
+}
+
+.calendar iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  /* Overriding inline styles */
+  height: 100% !important;
+  /* Overriding inline styles */
+}

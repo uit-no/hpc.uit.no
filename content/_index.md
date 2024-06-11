@@ -77,8 +77,14 @@ and managed by [Sigma2](https://www.sigma2.no/).
 
 {{ div(attributes='class="uk-card uk-card-secondary uk-card-body uk-margin-large-top"') }}
 ## Office hours: Every Wednesday 10:30 - 12:00
+{{ div(attributes='class="events-container"')  }}
+{{ div(attributes='class="calendar"')  }}
+  <iframe src="https://calendar.google.com/calendar/embed?height=375&wkst=2&ctz=Europe%2FBerlin&bgcolor=%23ffffff&showTz=0&showPrint=0&title&showTitle=0&src=Y19iMzFmOTAxM2NiMTJiODRmNzJjNmU0MGVhZWE2YWQ4ZWVhZDY2YTQ0MzUzMGNjODgzZDJiMzc3NmM5MTk5ZjMxQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&color=%233F51B5" style="border-width:0" width="500" height="375" frameborder="0" scrolling="no"></iframe>
+{{ enddiv()}}
 
 Need help with anything high-performance computing or NRIS related? Or do need more computing power than your laptop can provide?  Then visit us during our office hours.
 Every Wednesday 10:30 - 12:00 in [room A209 in
 Modulbygget](https://use.mazemap.com/#v=1&zlevel=2&center=18.972617,69.683509&zoom=16.3&campusid=5&sharepoitype=poi&sharepoi=174370).
+
+{{ enddiv()}}
 {{ enddiv() }}
