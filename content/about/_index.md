@@ -14,19 +14,10 @@ our [projects](@/projects.md).
 
 ## Hardware
 
-There are currently two different machines located at UiT. Fram is a
+One of the NRIS supercomputers, [Fram](https://documentation.sigma2.no/hpc_machines/fram.html#fram), is located at UiT. Fram is a
 supercomputer with over 1000 individual nodes, each with 32 cores, capable of
 1.1 PFLOP/s. A large portion of our job is to make sure that this machine
-operates at peak capacity. 
-
-We also have one part of NIRD located in Tromsø. NIRD is a storage centric
-machine, focusing on fulfilling needs for research that require storage and
-computing on data where a single dataset can be several terabytes in size.
-Although all NIRD operations are in the process of being moved to Lefdal Mine
-Datacenter, we are still maintaining the "old" NIRD instance here. The future
-of this system is still being discussed.
-
-For both machines, typical tasks include replacing failing components,
+operates at peak capacity. This involces typically replacing failing components,
 rebooting machines that has stopped working, and upgrade or replace parts of
 the machine when new capabilities or improved performance is available.
 

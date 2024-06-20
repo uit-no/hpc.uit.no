@@ -27,8 +27,9 @@ team:
     text:
       Member of the Software Installation Team at NRIS. Trying to provide a scientific software stack that offer both performance and reproducibility.
   - name: "Espen Tangen"
-    picture: "placeholder.png"
-    text: ""
+    picture: "et.jpeg"
+    text: " 
+    	Leads the training and outreach activities team (aka TrOuT) in NRIS. Have a background in computational chemistry, and more than 20 years of user-experienc. Primary contact if there is a need for any kind of information; access to test-accounts, presentation of the HPC-group for different research communities, hands-on exercises or training using NRIS hardware locally (including courses given at UiT)." 
   - name: "Øystein Tveito"
     picture: "ot.jpg"
     text:
