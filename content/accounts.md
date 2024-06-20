@@ -10,12 +10,16 @@ submitting a formal application.  We also wish to make it easy for you to get
 course accounts if you plan to teach using HPC resources.
 
 
-## Test account
+## Test accounts
 
-If you wish to try out the resources for your own research, [apply
-here](https://www.metacenter.no/user/application/form/hpc/) for an user
-account for project "NN8999K: Running recruitment UiT". Make sure that you use
-your UiT e-mail when signing up. Further instructions will follow via e-mail.
+- If you wish to try out [NRIS hpc-services](https://www.sigma2.no/service/high-performance-computing) for your own research, [apply
+here](https://www.metacenter.no/user/application/form/hpc/) for an access to project "NN8999K: HPC testing for UiT users".
+
+- If you wish to try out either [NIRD storage services](https://www.sigma2.no/service/nird-data-peak) or  [NRIS services for advanced pre/postprocessing of large datasets](https://www.sigma2.no/service/nird-service-platform) for your research, [apply here](https://www.metacenter.no/user/application/form/storage/) for access to account "NS8999K: NIRD testing for UiT users".
+
+For both sets of applications, please make sure that you use your UiT e-mail when signing up. Further instructions will follow via e-mail.
+
+These accounts are also available for covering immediate demand for larger scale computational resources, UiT student-courses and UiT-hands-on sessions where computational cluster resources may be useful. 
 
 
 ## Course accounts
