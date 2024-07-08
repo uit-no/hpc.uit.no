@@ -76,9 +76,9 @@ and managed by [Sigma2](https://www.sigma2.no/).
 
 
 {{ div(attributes='class="uk-card uk-card-secondary uk-card-body uk-margin-large-top"') }}
-## Office hours: Every Wednesday 10:30 - 12:00
+## Office hours: No office hours during summer. See you again mid August.
 
 Need help with anything high-performance computing or NRIS related? Or do need more computing power than your laptop can provide?  Then visit us during our office hours.
-Every Wednesday 10:30 - 12:00 in [room A209 in
+Every Wednesday 13:00-15:00 in [room A209 in
 Modulbygget](https://use.mazemap.com/#v=1&zlevel=2&center=18.972617,69.683509&zoom=16.3&campusid=5&sharepoitype=poi&sharepoi=174370).
 {{ enddiv() }}
