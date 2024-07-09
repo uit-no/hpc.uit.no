@@ -1,0 +1,63 @@
+---
+team:
+  - name: "Radovan Bast"
+    picture: "rb.jpg"
+    text:
+      Leads the [CodeRefinery](https://coderefinery.org)
+      project and the high-performance computing and research software
+      engineering groups.  Specializes in software development, teaching, and
+      improving usability of HPC services.
+  - name: "Magnar Bjørgve"
+    picture: "mb.jpeg"
+    text:
+      Magnar has a background in Applied Mathematics and is working within the GPU team at NRIS,
+      focusing on accelerating software for both NVIDIA and AMD GPUs. He is also contributing
+      to the [Norwegian AI Cloud](https://www.naic.no) in both storage solutions and training.
+  - name: "Jørn Dietze"
+    picture: "jd.png"
+    text:
+      Jørn Dietze is almost finished with a PhD in bioinformatics. He is
+      working with high-performance computing systems and has experience with
+      programming in Python, Julia, and a little bit of C. He is mainly busy
+      with making the systems more usuable as part of NRIS at the University of
+      Tromsø, Norway, and the [LUMI User Support
+      Team](https://www.lumi-supercomputer.eu/).
+  - name: "Dan Jonsson"
+    picture: "dj.jpg"
+    text:
+      Member of the Software Installation Team at NRIS. Trying to provide a scientific software stack that offer both performance and reproducibility.
+  - name: "Espen Tangen"
+    picture: "et.jpeg"
+    text: " 
+    	Leads the training and outreach activities team (aka TrOuT) in NRIS. Have a background in computational chemistry, and more than 20 years of user-experienc. Primary contact if there is a need for any kind of information; access to test-accounts, presentation of the HPC-group for different research communities, hands-on exercises or training using NRIS hardware locally (including courses given at UiT)." 
+  - name: "Øystein Tveito"
+    picture: "ot.jpg"
+    text:
+      Team leader for the SMS-team and problem manager for NRIS.
+      He has experience in programming, IoT, 3D printing, AI, and machine learning.
+  - name: "Steinar Trædal-Henden"
+    picture: "sth.png"
+    text:
+      Manager of the enterprise digital research services group at UiT. Deputy
+      manager of the operations organization in NRIS.
+  - name: "Erik Heggeli"
+    picture: "placeholder.png"
+    text:
+      Part of the GPU team and NAIC (Norwegian AI Cloud). Background in Computer Science.
+  - name: "Gregor Decristoforo"
+    picture: "gd.jpg"
+    text:
+      Gregor is part of the [Research software engineering (RSE) group](https://research-software.uit.no) at UiT and the [LUMI User Support Team](https://www.lumi-supercomputer.eu). During his PhD and Postdoc in Computational Physics Gregor gained experience in parallel programming and research software engineering. 
+  - name: "Gabriel Gerez"
+    picture: "gg.jpeg"
+    text:
+      Gabriel is almost finished with his PhD in Theoretical chemistry. He is currently part of
+      the Software team providing support with installation and use of scientific software
+      in the clusters. He is part of the [Research software engineering (RSE) group](https://research-software.uit.no) at UiT where he helps researchers
+      with issues such as code design and scalability of software to HPC.
+      Gabriel is experienced in developing code in C++ and Python.
+past:
+  - name: "Bente Barge"
+    picture: "bsb.jpg"
+  - name: "Ilia Zhakun"
+    picture: "iz.jpg"
