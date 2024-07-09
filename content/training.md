@@ -13,13 +13,18 @@ courses and events.
 
 ## Upcoming events and courses
 
-- Info meeting with Geology June 7
-- We plan a "Python for Scientific Computing" course, probably again in November
-- We plan to contribute to a build systems course Oct 8-11 on topics around Make, Autotools, CMake, EasyBuild, Spack, and containers. More info soon.
+- [CodeRefinery workshop](https://coderefinery.github.io/2024-09-10-workshop/), September 10-12, 17-19, 2024
+- We plan to contribute to a
+  [build systems course Oct 8-11](https://www.kth.se/form/build-systems-course-and-hackathon-part-i)
+  on topics around Make, Autotools, CMake, EasyBuild, Spack, and containers
+- We plan a "Python for Scientific Computing" course, probably November 5-7
+- [FAIR Data Visualisation course at UiT](https://uit.no/tavla/artikkel/850361/fair_data_visualisation_-_phd_course_2_ects), November 11-15 and 22, 2024
+- [RTromsø, the R user group a UiT](https://uit-no.github.io/rtromso/)
 
 
 ## Recent courses and events
 
+- Info meeting with Geology June 7
 - [HPC on-boarding: April 9-11, 2024](https://documentation.sigma2.no/training/events/2024-04-hpc-on-boarding.html)
 - [Tuesday Tools & Techniques for HPC](https://scicomp.aalto.fi/training/scip/ttt4hpc-2024/): April 16 and 23, May 7 and 14 (4 sessions in total)
 - [RTromsø, the R user group a UiT](https://uit-no.github.io/rtromso/): first meeting April 17
