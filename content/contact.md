@@ -13,7 +13,7 @@ Write to `hpc@uit.no`.
 
 Visit us to ask all high-performance computing related questions. When you have the feeling that your notebook is not sufficient any longer for the work you need to get done. Or just to get some tips on how to improve your workflow on NRIS systems.
 
-Every Wednesday from 10:30 to 12:00 in [room A210 in Modulbygget](https://use.mazemap.com/#v=1&zlevel=2&center=18.972380,69.683702&zoom=20.6&campusid=5&sharepoitype=poi&sharepoi=174371)
+Every Wednesday from 13:00 to 15:00 in [room A210 in Modulbygget](https://use.mazemap.com/#v=1&zlevel=2&center=18.972380,69.683702&zoom=20.6&campusid=5&sharepoitype=poi&sharepoi=174371)
 
 
 ## Newsletter
