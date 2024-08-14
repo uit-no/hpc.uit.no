@@ -76,7 +76,7 @@ and managed by [Sigma2](https://www.sigma2.no/).
 
 
 {{ div(attributes='class="uk-card uk-card-secondary uk-card-body uk-margin-large-top"') }}
-## Office hours: No office hours during summer. See you again mid August.
+## Office hours
 
 Need help with anything high-performance computing or NRIS related? Or do need more computing power than your laptop can provide?  Then visit us during our office hours.
 Every Wednesday 13:00-15:00 in [room A209 in
