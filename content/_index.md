@@ -64,7 +64,7 @@ and managed by [Sigma2](https://www.sigma2.no/).
 ## How to get in touch
 
 - Send us an email to `hpc@uit.no`
-- Visit us [on the campus](/contact/) during our weekly office hours every Wednesday 10:30--12:00.
+- Visit us [on the campus](/contact/) during our weekly office hours every Wednesday 13:00-15:00.
 - Join one of our monthly NRIS [question & answer
   sessions](https://documentation.sigma2.no/getting_help/qa-sessions.html).
   This is the best place to ask questions or give us feedback on how we can improve the services.
