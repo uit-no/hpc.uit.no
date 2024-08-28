@@ -64,6 +64,10 @@ team:
     picture: "placeholder.png"
     text:
       Part of the GPU team at NRIS. He has experience in various programming languages and Linux-based operating systems.  
+  - name: "Andreas Evenstad"
+    picture: "placeholder.png"
+    text:
+      Part of the Support Team. Background from biology and bioinformatics and has experience with R, python and HPC.
 past:
   - name: "Bente Barge"
     picture: "bsb.jpg"
