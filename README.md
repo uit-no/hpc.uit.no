@@ -5,7 +5,7 @@
 
 ### How/where to add yourself or edit your information
 
-Edit [content/team/team.yaml](content/team/team.yaml)
+Edit [content/about/team/team.yaml](content/about/team/team.yaml)
 or `git grep` for text on the page you want to change.
 
 
