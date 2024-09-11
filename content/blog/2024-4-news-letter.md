@@ -1,7 +1,7 @@
 +++
 title = "News Letter April 2024"
 description = ""
-date = "2024-03-06"
+date = "2024-04-08"
 
 [extra] 
 authors = "Espen Tangen & Gregor Decristoforo"
