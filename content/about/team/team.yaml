@@ -68,6 +68,13 @@ team:
     picture: "placeholder.png"
     text:
       Part of the Support Team. Background from biology and bioinformatics and has experience with R, python and HPC.
+  - name: "Jim-Viktor Paulsen"
+    picture: "placeholder.png"
+    text:
+      During my Ph.D. and postdoctoral work, I gained experience in computational physics. 
+      I have been an inventor and entrepreneur in Norway and Texas for many years. 
+      My programming skills include Fortran, C, and Python, with expertise in parallel computing using MPI and OpenMP. 
+      I also have experience with GPU offloading techniques using OpenACC, OpenMP, and CUDA.
 past:
   - name: "Bente Barge"
     picture: "bsb.jpg"
