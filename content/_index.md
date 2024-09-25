@@ -3,7 +3,7 @@
 
 {{ div(attributes='class="terminal uk-margin-large-bottom"') }}
 
-# High-performance computing group at [UiT](https://uit.no/)
+# High-performance computing group at [UiT](https://uit.no/) - We are [NRIS](https://www.sigma2.no) at UiT!
 
 When your computation does not fit anymore into your computer, we are the group
 to talk to.
