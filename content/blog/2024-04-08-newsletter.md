@@ -1,5 +1,6 @@
 +++
-title = "News Letter April 2024"
+title = "Newsletter April 8, 2024"
+slug = "2024-04-08-newsletter"
 description = ""
 date = "2024-04-08"
 
