@@ -29,7 +29,7 @@ courses and events.
 - [CodeRefinery](https://coderefinery.org/) workshop: March 12-14 and 19-21, 2024
 - [Python for Scientific Computing, November 7-10, 2023](https://aaltoscicomp.github.io/python-for-scicomp/)
 - [FAIR Data Visualisation](https://uit.no/tavla/artikkel/823818/fair_data_visualisation), October 17 - 19 and 23, Tromsø Breivika campus.
-- [Meet the HPC group October 3 2023](@/events/outreach2023.md). We invited users and potential users to an informal meeting with pizza and talks on good practices using our resources. Read more about the event on our [blog](@/blog/2023-outreach-event.md).
+- [Meet the HPC group October 3 2023](@/events/outreach2023.md). We invited users and potential users to an informal meeting with pizza and talks on good practices using our resources. Read more about the event on our [blog](@/blog/2023-10-09-outreach.md).
 - [HPC On-boarding, October 3-5, 2023](https://documentation.sigma2.no/training/events/2023-10-hpc-on-boarding.html)
 - [CodeRefinery workshop September 19-21 and 26-28, 2023](https://coderefinery.github.io/2023-09-19-workshop/)
 - [Best Practices on NRIS Clusters, May 9-11, 2023](https://documentation.sigma2.no/training/events/2023-05-best-practices-on-NRIS-clusters.html)
