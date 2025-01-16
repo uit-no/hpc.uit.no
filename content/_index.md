@@ -27,7 +27,7 @@ nodes, thousands of cores, and petabytes of data.  We have experts in software
 installation, code performance optimization, CPU and GPU programming, and
 [research software engineering](https://research-software.uit.no/).
 
-[Here](/team/) you can meet the team.
+[Here](/about/team/) you can meet the team.
 
 {{ enddiv() }}
 
