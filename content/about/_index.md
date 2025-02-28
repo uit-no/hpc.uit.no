@@ -48,7 +48,7 @@ the machine when new capabilities or improved performance is available.
 ## Outreach and on-boarding
 
 - We help new users getting started through the
-  [small scale exploratory work projects](https://www.sigma2.no/small-scale-exploratory-work).
+  [small scale exploratory work projects](https://www.sigma2.no/service/small-scale-exploratory-work-ssew).
 - On [this page](@/accounts.md) we describe how you can get access to a test
   account or a course account.
 - We are planning to start later this year with regular (weekly) office hours
@@ -65,7 +65,7 @@ With other NRIS centers and international collaborations we develop and deliver 
 ## Support
 
 - We provide support for NRIS users and improving usability. 
-- We help new users getting started through the [small scale exploratory work projects](https://www.sigma2.no/small-scale-exploratory-work)
+- We help new users getting started through the [small scale exploratory work projects](https://www.sigma2.no/service/small-scale-exploratory-work-ssew)
 - Extended user support (support that requires few days of work)
 - Advanced user support (support that requires few weeks of work)
 - Improving the [documentation](https://documentation.sigma2.no/)
