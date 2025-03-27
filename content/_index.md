@@ -64,7 +64,7 @@ and managed by [Sigma2](https://www.sigma2.no/).
 ## How to get in touch
 
 - Send us an email to `hpc@uit.no`
-- Visit us [on the campus](/contact/) during our weekly office hours every Wednesday 13:00-15:00.
+- Visit us [on the campus](/contact/) during our weekly office hours every Wednesday 14:00-16:00.
 - Join one of our monthly NRIS [question & answer
   sessions](https://documentation.sigma2.no/getting_help/qa-sessions.html).
   This is the best place to ask questions or give us feedback on how we can improve the services.
@@ -78,7 +78,8 @@ and managed by [Sigma2](https://www.sigma2.no/).
 {{ div(attributes='class="uk-card uk-card-secondary uk-card-body uk-margin-large-top"') }}
 ## Office hours
 
+NB: Office hours are cancelled on 2025-04-02 due to [UiT Data Days](https://uit.no/tavla/artikkel/871749/_register_now_for_uit_data_days_spring_2025).
+
 Need help with anything high-performance computing or NRIS related? Or do need more computing power than your laptop can provide?  Then visit us during our office hours.
-Every Wednesday 13:00-15:00 in [room A209 in
-Modulbygget](https://use.mazemap.com/#v=1&zlevel=2&center=18.972617,69.683509&zoom=16.3&campusid=5&sharepoitype=poi&sharepoi=174370).
+Every Wednesday 14:00-16:00 in [room 244 at Universitetsbiblioteket](https://link.mazemap.com/uUsb9EWs).
 {{ enddiv() }}
