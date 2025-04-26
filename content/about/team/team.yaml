@@ -4,13 +4,6 @@ team:
     picture: "placeholder.png"
     text:
       Part of the GPU team at NRIS. He has experience in web and mobile application development, Large Language Models.
-  - name: "Radovan Bast"
-    picture: "rb.jpg"
-    text:
-      Main focus are the [CodeRefinery](https://coderefinery.org)
-      project and the research software
-      engineering groups. Specializes in software development, teaching, and
-      improving usability of HPC services.
   - name: "Magnar Bjørgve"
     picture: "mb.jpeg"
     text:
@@ -68,6 +61,8 @@ team:
       manager of the operations organization in NRIS.
 
 past:
+  - name: "Radovan Bast"
+    picture: "rb.jpg"
   - name: "Bente Barge"
     picture: "bsb.jpg"
   - name: "Andreas Evenstad"
