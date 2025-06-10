@@ -78,7 +78,7 @@ and managed by [Sigma2](https://www.sigma2.no/).
 {{ div(attributes='class="uk-card uk-card-secondary uk-card-body uk-margin-large-top"') }}
 ## Office hours
 
-NB: Office hours are cancelled on 2025-04-02 due to [UiT Data Days](https://uit.no/tavla/artikkel/871749/_register_now_for_uit_data_days_spring_2025).
+Next office hours in 2025: Jun 18, Jun 25, and more after summer.
 
 Need help with anything high-performance computing or NRIS related? Or do need more computing power than your laptop can provide?  Then visit us during our office hours.
 Every Wednesday 14:00-16:00 in [room 244 at Universitetsbiblioteket](https://link.mazemap.com/uUsb9EWs).
