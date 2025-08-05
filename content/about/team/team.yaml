@@ -43,6 +43,10 @@ team:
     picture: "placeholder.png"
     text:
       Part of the GPU team at NRIS. He has experience in various programming languages and Linux-based operating systems.
+  - name: "Andrew Mashchak"
+    picture: "placeholder.png"
+    text:
+      Part of the High-level Support team at NRIS and the [Research software engineering (RSE) group](https://research-software.uit.no) at UiT. He has a background in Statistics and Computer Science.
   - name: "Jim-Viktor Paulsen"
     picture: "placeholder.png"
     text:
