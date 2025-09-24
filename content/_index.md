@@ -78,7 +78,7 @@ and managed by [Sigma2](https://www.sigma2.no/).
 {{ div(attributes='class="uk-card uk-card-secondary uk-card-body uk-margin-large-top"') }}
 ## Office hours
 
-Next office hours in 2025: Jun 18, Jun 25, and more after summer.
+Next office hours in 2025: Sep 24, Oct 1, Oct 8 and more later.
 
 Need help with anything high-performance computing or NRIS related? Or do need more computing power than your laptop can provide?  Then visit us during our office hours.
 Every Wednesday 14:00-16:00 in [room 244 at Universitetsbiblioteket](https://link.mazemap.com/uUsb9EWs).
