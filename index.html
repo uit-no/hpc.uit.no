@@ -1,0 +1,2629 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>High-performance computing group at UiT</title>
+    <link rel="shortcut icon" href="https://hpc.uit.no/img/favicon.ico">
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.21.6/dist/css/uikit.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.21.6/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.21.6/dist/js/uikit-icons.min.js"></script>
+
+    
+
+
+  <meta name="description" content="When your computation does not fit anymore into your computer, we are the group
+to talk to.
+" />
+  <meta name="twitter:description" content="When your computation does not fit anymore into your computer, we are the group
+to talk to.
+" />
+
+
+
+  <meta name="twitter:title" content="High-performance computing group at UiT" />
+
+
+
+    <link href="https://hpc.uit.no/style.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <div class="uk-container uk-margin-large-bottom">
+      <nav class="uk-navbar-container uk-navbar-transparent" uk-navbar>
+  <div class="logo-container">
+    <a href="https://uit.no/startsida" target="_blank">
+        <img class="logo-uit" src="https://hpc.uit.no/img/UiT_2line_blue.png" alt="logo_uit_2line_blue">
+    </a>
+    <a href="https://documentation.sigma2.no/" target="_blank">
+        <img class="logo-nris" src="https://hpc.uit.no/img/NRIS_acronym_blue.png" alt="logo_nris_acronym_blue">
+    </a>
+</div>
+  <div class="uk-navbar-right">
+    <ul class="uk-navbar-nav uk-visible@s">
+      
+        
+          <li><a href="https://hpc.uit.no">Home</a></li>
+        
+      
+        
+          <li><a href="https://hpc.uit.no/about">About us</a></li>
+        
+      
+        
+          <li><a href="https://hpc.uit.no/projects">Projects</a></li>
+        
+      
+        
+          <li><a href="https://hpc.uit.no/training">Training and events</a></li>
+        
+      
+        
+          <li><a href="https://hpc.uit.no/accounts">Getting started</a></li>
+        
+      
+        
+          <li><a href="https://hpc.uit.no/blog">Newsletter&#x2F;blog</a></li>
+        
+      
+        
+          <li><a href="https://hpc.uit.no/contact">Contact</a></li>
+        
+      
+    </ul>
+    <a href="#" class="uk-navbar-toggle uk-hidden@s" uk-navbar-toggle-icon uk-toggle="target: #sidenav"></a>
+  </div>
+</nav>
+
+<div id="sidenav" uk-offcanvas="flip: true" class="uk-offcanvas">
+  <div class="uk-offcanvas-bar">
+    <ul class="uk-nav">
+      
+        
+          <li><a href="https://hpc.uit.no">Home</a></li>
+        
+      
+        
+          <li><a href="https://hpc.uit.no/about">About us</a></li>
+        
+      
+        
+          <li><a href="https://hpc.uit.no/projects">Projects</a></li>
+        
+      
+        
+          <li><a href="https://hpc.uit.no/training">Training and events</a></li>
+        
+      
+        
+          <li><a href="https://hpc.uit.no/accounts">Getting started</a></li>
+        
+      
+        
+          <li><a href="https://hpc.uit.no/blog">Newsletter&#x2F;blog</a></li>
+        
+      
+        
+          <li><a href="https://hpc.uit.no/contact">Contact</a></li>
+        
+      
+    </ul>
+  </div>
+</div>
+
+
+      <div class="markdown">
+        
+  <div class="uk-margin-large-bottom">
+    
+  <div class="lights-grid">
+    
+    <div style="display: inline;"
+      class="light blink_3 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_1 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_3 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_0 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_0 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_1 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_4 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_4 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_2 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_3 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_2 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_2 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_4 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_0 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_4 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_3 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_3 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_1 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_3 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_0 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_1 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_4 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_1 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_4 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_2 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_4 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_1 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_2 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_3 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_1 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_4 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_2 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_1 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_4 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_0 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_2 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_0 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_3 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_3 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_3 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_1 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_3 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_0 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_0 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_0 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_1 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_2 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_3 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_2 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_0 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_2 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_1 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_4 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_2 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_1 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_4 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_3 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_4 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_3 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_1 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_2 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_3 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_3 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_3 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_0 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_1 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_2 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_3 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_2 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_2 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_0 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_0 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_2 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_0 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_4 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_3 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_1 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_1 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_2 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_1 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_1 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_0 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_3 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_4 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_2 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_0 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_2 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_4 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_3 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_3 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_1 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_0 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_4 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_4 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_4 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_1 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_1 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_0 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_4 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_3 color_0">&#9632;
+    </div>
+    
+  </div>
+  
+  <div class="lights-grid">
+    
+    <div style="display: inline;"
+      class="light blink_2 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_0 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_0 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_3 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_0 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_3 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_4 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_3 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_0 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_2 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_0 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_2 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_3 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_2 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_3 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_4 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_3 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_2 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_4 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_2 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_3 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_4 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_0 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_3 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_4 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_3 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_0 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_3 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_4 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_0 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_0 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_0 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_3 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_1 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_2 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_4 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_1 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_3 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_2 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_4 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_1 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_3 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_1 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_1 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_0 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_2 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_0 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_1 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_3 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_2 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_1 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_1 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_3 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_1 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_2 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_1 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_1 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_0 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_1 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_4 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_4 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_3 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_3 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_0 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_4 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_3 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_0 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_1 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_3 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_3 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_0 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_4 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_3 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_2 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_4 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_0 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_1 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_2 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_1 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_2 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_3 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_4 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_2 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_0 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_3 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_3 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_3 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_2 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_4 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_0 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_3 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_2 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_4 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_3 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_2 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_4 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_2 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_4 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_0 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_0 color_0">&#9632;
+    </div>
+    
+  </div>
+  
+  <div class="lights-grid">
+    
+    <div style="display: inline;"
+      class="light blink_1 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_0 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_0 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_1 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_2 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_1 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_2 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_3 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_0 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_1 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_4 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_2 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_3 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_0 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_3 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_0 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_3 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_0 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_3 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_2 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_3 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_4 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_3 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_0 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_3 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_3 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_3 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_1 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_2 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_2 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_3 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_4 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_4 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_0 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_4 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_4 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_4 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_0 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_0 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_3 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_2 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_0 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_3 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_3 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_3 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_2 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_0 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_1 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_3 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_2 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_3 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_1 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_1 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_2 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_0 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_3 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_2 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_1 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_4 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_1 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_3 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_1 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_1 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_3 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_4 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_1 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_4 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_0 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_1 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_3 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_0 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_1 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_2 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_2 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_2 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_4 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_4 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_1 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_0 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_3 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_1 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_3 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_2 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_3 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_1 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_1 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_0 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_0 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_0 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_0 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_3 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_3 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_4 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_0 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_2 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_1 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_0 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_1 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_0 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_3 color_0">&#9632;
+    </div>
+    
+  </div>
+  
+  </div>
+
+  <div class="terminal uk-margin-large-bottom">
+<h1 id="high-performance-computing-group-at-uit-we-are-nris-at-uit">High-performance computing group at <a href="https://uit.no/">UiT</a> - We are <a href="https://www.sigma2.no">NRIS</a> at UiT!</h1>
+<p>When your computation does not fit anymore into your computer, we are the group
+to talk to.</p>
+</div>
+<div class="uk-child-width-expand@m" uk-grid>
+<div >
+<h2 id="about-the-group">About the group</h2>
+<p>We are part of the <a href="https://documentation.sigma2.no/">Norwegian Research Infrastructure Services
+(NRIS)</a>.  Within <a href="https://uit.no/">UiT</a> we
+are part of the <a href="https://uit.no/enhet/ita/digitaleforskningsogformidlingstjenester">faggruppa for forsknings og
+formidlingstjenester</a>.</p>
+<p>We have in-house expertise in operating clusters and networks with hundreds of
+nodes, thousands of cores, and petabytes of data.  We have experts in software
+installation, code performance optimization, CPU and GPU programming, and
+<a href="https://research-software.uit.no/">research software engineering</a>.</p>
+<p><a href="/about/team/">Here</a> you can meet the team.</p>
+</div>
+<div >
+<h2 id="about-nris">About NRIS</h2>
+<p>The Norwegian research infrastructure services (NRIS) is a collaboration
+between Sigma2 and the universities of Bergen (UiB), Oslo (UiO), Tromsø (UiT
+The Arctic University of Norway) and NTNU, to provide national supercomputing
+and data storage services. These services are operated by NRIS and coordinated
+and managed by <a href="https://www.sigma2.no/">Sigma2</a>.</p>
+</div>
+</div>
+<div class="uk-child-width-expand@m" uk-grid>
+<div >
+<h2 id="our-goals">Our goals</h2>
+<ul>
+<li>Support the <a href="https://documentation.sigma2.no/">Norwegian Research Infrastructure Services (NRIS)</a>.</li>
+<li>Improve the usability of the NRIS services.</li>
+<li><a href="https://research-software.uit.no/">Help improving your scripts and codes and workflows so that you get more research done in less time.</a></li>
+<li><a href="/training/">Provide training</a> to give everybody the tools they need and confidence to use the tools.</li>
+<li>Help you with access to national and international compute and storage resources.</li>
+</ul>
+</div>
+<div >
+<h2 id="how-to-get-in-touch">How to get in touch</h2>
+<ul>
+<li>Send us an email to <code>hpc@uit.no</code></li>
+<li>Visit us <a href="/contact/">on the campus</a> during our weekly office hours every Wednesday 14:00-16:00.</li>
+<li>Join one of our monthly NRIS <a href="https://documentation.sigma2.no/getting_help/qa-sessions.html">question &amp; answer
+sessions</a>.
+This is the best place to ask questions or give us feedback on how we can improve the services.</li>
+<li><a href="/contact/">Subscribe to our newsletter with updates to training and other HPC related events.</a></li>
+</ul>
+</div>
+</div>
+<div class="uk-card uk-card-secondary uk-card-body uk-margin-large-top">
+<h2 id="office-hours">Office hours</h2>
+<p>Next office hours in 2025: Sep 24, Oct 1, Oct 8 and more later.</p>
+<p>Need help with anything high-performance computing or NRIS related? Or do need more computing power than your laptop can provide?  Then visit us during our office hours.
+Every Wednesday 14:00-16:00 in <a href="https://link.mazemap.com/uUsb9EWs">room 244 at Universitetsbiblioteket</a>.
+</div>
+</p>
+
+
+  <div class="uk-margin-large-top">
+    
+  <div class="lights-grid">
+    
+    <div style="display: inline;"
+      class="light blink_4 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_1 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_0 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_2 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_3 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_4 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_3 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_2 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_1 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_4 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_3 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_4 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_0 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_4 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_1 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_2 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_2 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_1 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_3 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_0 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_0 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_3 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_0 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_3 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_2 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_4 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_4 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_4 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_3 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_0 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_0 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_4 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_1 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_1 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_1 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_0 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_3 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_2 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_4 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_1 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_4 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_0 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_2 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_4 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_4 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_1 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_3 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_4 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_3 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_4 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_1 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_1 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_4 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_1 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_3 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_4 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_3 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_1 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_1 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_2 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_1 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_0 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_3 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_3 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_3 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_0 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_3 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_4 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_1 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_1 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_3 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_0 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_4 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_4 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_1 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_1 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_1 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_1 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_3 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_3 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_1 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_0 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_4 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_3 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_4 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_1 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_3 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_0 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_3 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_0 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_0 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_4 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_3 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_0 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_2 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_2 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_3 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_4 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_1 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_2 color_1">&#9632;
+    </div>
+    
+  </div>
+  
+  <div class="lights-grid">
+    
+    <div style="display: inline;"
+      class="light blink_2 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_2 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_2 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_1 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_4 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_2 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_0 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_3 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_3 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_1 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_3 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_0 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_1 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_0 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_3 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_3 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_2 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_4 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_2 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_2 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_3 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_1 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_1 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_2 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_2 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_1 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_4 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_0 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_2 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_3 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_3 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_0 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_0 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_2 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_1 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_1 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_3 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_4 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_2 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_4 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_2 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_3 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_0 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_0 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_1 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_1 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_2 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_4 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_4 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_1 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_3 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_4 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_1 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_3 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_0 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_1 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_1 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_3 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_3 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_1 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_2 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_0 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_0 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_3 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_1 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_2 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_4 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_1 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_1 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_0 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_3 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_2 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_1 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_2 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_1 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_2 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_2 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_3 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_1 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_3 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_2 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_3 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_3 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_1 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_0 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_3 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_3 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_4 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_4 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_0 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_2 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_1 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_1 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_2 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_3 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_2 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_3 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_1 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_2 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_4 color_0">&#9632;
+    </div>
+    
+  </div>
+  
+  <div class="lights-grid">
+    
+    <div style="display: inline;"
+      class="light blink_3 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_1 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_1 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_2 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_1 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_3 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_3 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_2 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_2 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_4 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_1 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_0 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_4 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_0 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_4 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_3 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_4 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_4 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_1 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_1 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_3 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_4 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_3 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_0 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_3 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_4 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_4 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_3 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_2 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_4 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_3 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_4 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_0 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_1 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_2 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_4 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_1 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_2 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_0 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_2 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_1 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_2 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_4 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_3 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_4 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_0 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_0 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_2 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_0 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_2 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_0 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_3 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_3 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_2 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_1 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_0 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_1 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_2 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_2 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_0 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_3 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_4 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_2 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_1 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_2 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_0 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_0 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_4 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_4 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_2 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_0 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_0 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_4 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_3 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_0 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_4 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_2 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_2 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_2 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_4 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_4 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_2 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_2 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_2 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_4 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_3 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_2 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_0 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_1 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_4 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_3 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_0 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_4 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_1 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_4 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_1 color_0">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_0 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_2 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_2 color_1">&#9632;
+    </div>
+    
+    <div style="display: inline;"
+      class="light blink_2 color_0">&#9632;
+    </div>
+    
+  </div>
+  
+  </div>
+
+      </div>
+
+      <hr>
+
+      <ul class="uk-iconnav">
+  <li class="uk-margin-large-right">
+    <a href="https://documentation.sigma2.no" target="_blank" uk-icon="icon: file-text">documentation.sigma2.no</a>
+  </li>
+  <li class="uk-margin-large-right">
+    <a href="https://github.com/uit-no/hpc.uit.no" target="_blank" uk-icon="icon: github">improve this page</a>
+  </li>
+  <li class="uk-margin-large-right">
+    <a href="mailto:hpc@uit.no" uk-icon="icon: mail">hpc@uit.no</a>
+  </li>
+</ul>
+
+
+    </div>
+  </body>
+</html>
