@@ -1,8 +1,8 @@
 +++
-title = "Newsletter April 04, 2025"
-slug = "2025-04-04-newsletter"
+title = "Newsletter April 03, 2025"
+slug = "2025-04-03-newsletter"
 description = ""
-date = "2025-04-04"
+date = "2025-04-03"
 [extra] 
 authors = "Espen Tangen"
 +++
