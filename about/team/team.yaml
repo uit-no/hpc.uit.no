@@ -1,0 +1,77 @@
+---
+team:
+  - name: "Binod Baniya"
+    picture: "placeholder.png"
+    text:
+      Part of the GPU team at NRIS. He has experience in web and mobile application development, Large Language Models.
+  - name: "Magnar Bjørgve"
+    picture: "mb.jpeg"
+    text:
+      Magnar has a background in Applied Mathematics and is working within the GPU team at NRIS,
+      focusing on accelerating software for both NVIDIA and AMD GPUs. He is also contributing
+      to the [Norwegian AI Cloud](https://www.naic.no) in both storage solutions and training.
+  - name: "Gregor Decristoforo"
+    picture: "gd.jpg"
+    text:
+      Gregor is part of the [Research software engineering (RSE) group](https://research-software.uit.no) at UiT and the [LUMI User Support Team](https://www.lumi-supercomputer.eu). During his PhD and Postdoc in Computational Physics Gregor gained experience in parallel programming and research software engineering.
+  - name: "Jørn Dietze"
+    picture: "jd.png"
+    text:
+      Jørn Dietze is almost finished with a PhD in bioinformatics. He is
+      working with high-performance computing systems and has experience with
+      programming in Python, Julia, and a little bit of C. He is mainly busy
+      with making the systems more usuable as part of NRIS at the University of
+      Tromsø, Norway, and the [LUMI User Support
+      Team](https://www.lumi-supercomputer.eu/).
+  - name: "Gabriel Gerez"
+    picture: "gg.jpeg"
+    text:
+      Gabriel is almost finished with his PhD in Theoretical chemistry. He is currently part of
+      the Software team providing support with installation and use of scientific software
+      in the clusters. He is part of the [Research software engineering (RSE) group](https://research-software.uit.no) at UiT where he helps researchers
+      with issues such as code design and scalability of software to HPC.
+      Gabriel is experienced in developing code in C++ and Python.
+  - name: "Erik Heggeli"
+    picture: "eh.jpg"
+    text:
+      Member of the GPU team and NAIC(Norwegian AI Cloud) within NRIS, Also work for the machine learning group @ UiT. Background in Computer Science.
+  - name: "Dan Jonsson"
+    picture: "dj.jpg"
+    text:
+      Member of the Software Installation Team at NRIS. Trying to provide a scientific software stack that offer both performance and reproducibility.
+  - name: "Benedikt Kruse"
+    picture: "placeholder.png"
+    text:
+      Part of the GPU team at NRIS. He has experience in various programming languages and Linux-based operating systems.
+  - name: "Andrew Mashchak"
+    picture: "placeholder.png"
+    text:
+      Part of the High-level Support team at NRIS and the [Research software engineering (RSE) group](https://research-software.uit.no) at UiT. He has a background in Statistics and Computer Science.
+  - name: "Jim-Viktor Paulsen"
+    picture: "placeholder.png"
+    text:
+      During my Ph.D. and postdoctoral work, I gained experience in computational physics.
+      I have been an inventor and entrepreneur in Norway and Texas for many years.
+      My programming skills include Fortran, C, and Python, with expertise in parallel computing using MPI and OpenMP.
+      I also have experience with GPU offloading techniques using OpenACC, OpenMP, and CUDA.
+  - name: "Espen Tangen"
+    picture: "et.jpeg"
+    text: "
+    	Leads the training and outreach activities team (aka TrOuT) in NRIS. Have a background in computational chemistry, and more than 20 years of user-experienc. Primary contact if there is a need for any kind of information; access to test-accounts, presentation of the HPC-group for different research communities, hands-on exercises or training using NRIS hardware locally (including courses given at UiT)."
+  - name: "Steinar Trædal-Henden"
+    picture: "sth.png"
+    text:
+      Manager of the enterprise digital research services group at UiT. Deputy
+      manager of the operations organization in NRIS.
+
+past:
+  - name: "Radovan Bast"
+    picture: "rb.jpg"
+  - name: "Bente Barge"
+    picture: "bsb.jpg"
+  - name: "Andreas Evenstad"
+    picture: "placeholder.png"
+  - name: "Øystein Tveito"
+    picture: "ot.jpg"
+  - name: "Ilia Zhakun"
+    picture: "iz.jpg"
