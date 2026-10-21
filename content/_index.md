@@ -78,8 +78,7 @@ and managed by [Sigma2](https://www.sigma2.no/).
 {{ div(attributes='class="uk-card uk-card-secondary uk-card-body uk-margin-large-top"') }}
 ## Office hours
 
-Next office hours in 2025: Sep 24, Oct 1, Oct 8 and more later.
-
 Need help with anything high-performance computing or NRIS related? Or do need more computing power than your laptop can provide?  Then visit us during our office hours.
-Every Wednesday 14:00-16:00 in [room 244 at Universitetsbiblioteket](https://link.mazemap.com/uUsb9EWs).
-{{ enddiv() }}
+__Help Desk sessions are held nearly every Wednesday from 14:00–16:00.__
+
+More details about this week's Help Desk session, including location and scheduling, are available on the [Tavla event page](https://uit.no/tavla/artikkel/879633/_help_desk_for_coding_support_research_data_man).{{ enddiv() }}
